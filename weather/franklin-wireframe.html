@@ -6,49 +6,45 @@
     <title>Page | Website | Keywords</title>
     <meta name="description" content="Short Description of the page.">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
-        <div id="logo">
-            &#9856; &#9861;
-            <h1>Feeling Lucky?</h1>
-            <h3>Local Weather</h3>
+        <div id="logoDiv">
+            <h1 id="logo"><span id="dice"><span id="dice1">&#9856;</span><span id="dice2"> &#9861;</span></span>Feeling Lucky?</h1>
+            <h3 id="local-weather">Local Weather</h3>
         </div>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Franklin</a></li>
-                <li><a href="#">Greenville</a></li>
-                <li><a href="#">Springfield</a></li>
-                <li><a href="#">Search</a></li>
+            <ul id="nav-links">
+                <li><a href="#" class="nav-bar-link">Home</a></li>
+                <li><a href="#" class="nav-bar-link">Franklin</a></li>
+                <li><a href="#" class="nav-bar-link">Greenville</a></li>
+                <li><a href="#" class="nav-bar-link">Springfield</a></li>
+                <li><a href="#" class="nav-bar-link">Search</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div id="weatherWhereYouAre">
+            <h2 id="city-name">Franklin, ID</h2>
+            <div id="temerature">
+                <h2>16</h2>
+                <p id="temp"><span id="sun">&#9728;</span> 17/3</p>
+            </div>
         <div id="currentConditions">
-            &#9856;
             <h2>Current Conditions</h2>
-            <dl>
-            <dt>Wind</dt>
+            <dl id="weather">
+                <dt>Wind:</dt>
+
                 <dd>1-5 MPH</dd>
-                <dd>Southwest</dd>
-                <dt>Precipitaion</dt>
-                <dd>0 in</dd>
+                <dt id="percipitation">Precipitaion:</dt>
+                <dd>Southwest</dd>   <dd id="inches">0 in</dd>
             </dl>
         </div>
-        <div id="weatherWhereYouAre">
-            &#9856;
-            <h2>Franklin, ID</h2>
-            <div id="temerature">
-                <h2>Current Temp</h2>
-                <p>&#9728; 17 / 3</p>
-            </div>
-            <p>Current condition of sky</p>
+
         </div>
-        &#9856;
-        <div id="hourlyForecasat">
+        <div id="hourlyForecast" class="hidden">
             <h2>Hourly Forecast</h2>
             <ul>
                 <li>
@@ -100,8 +96,8 @@
         </div>
     </main>
     <footer>
-        &copy;2017 Sam Daw
-        <a href="https://samdaw13.github.io/">Link to Homepage</a>
+        <span id="copyright">&copy;2017 Sam Daw</span>
+        <a href="https://samdaw13.github.io/" id="link-to-home">Link to Homepage</a>
     </footer>
 </body>
 

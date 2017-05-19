@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    /* changes width property to total width instead of content width */
+    font-family: sans-serif;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main,
+figcaption,
+figure {
+    display: block;
+    /* just in case we have any older browsers that don't recognize the HTML5 semantic elements */
+}
+
+body {
+    margin: 0;
+    /* remove any margin from body to avoid unsightly gaps. */
+    padding: 0;
+    /* ditto for padding  */
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+}
+
+.nav-bar-link {
+    text-decoration: none;
+}
+
+#nav-links {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+#nav-links li {
+    display: inline;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #DDDDDD;
+    width: 100%;
+}
+
+#local-weather {
+    float: right;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#logo {
+    margin: 0px;
+}
+
+#dice {
+    margin-right: 5px;
+}
+
+#logoDiv {
+    width: 50%;
+    padding-right: 3%
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#weatherWhereYouAre {
+    justify-content: center;
+    padding-bottom: 5%;
+}
+#temerature {
+    border: 1px solid grey;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#sun {
+    margin-right: 45px;
+}
+
+#temp {
+    font-size: 1.em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#temerature h2 {
+    font-size: 1.8em;
+    margin-top: 15px;
+}
+
+#city-name {
+    font-size: 1.2em;
+    margin: auto;
+    width: 38%;
+    padding: 6%
+}
+
+#currentConditions dl {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+#currentConditions {
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 90%;
+    padding: 0% 5% 0% 5%;
+    font-size: 1em;
+    margin-left: 8%;
+}
+
+#weather dt {
+    float: left;
+    width: 50%;
+    padding-left: 15%;
+    margin: 0;
+}
+
+#weather dd {
+    float: left;
+    padding-left: 10%;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+#inches {
+    float: right !important;
+}
+
+#percipitation {
+    padding-top: 6%;
+}
+
+#currentConditions h2 {
+    font-size: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: #DDDDDD;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1em;
+    padding: 2% 10% 2% 0%;
+}
+
+#copyright {
+    float: left;
+    padding-right: 2%
+}
