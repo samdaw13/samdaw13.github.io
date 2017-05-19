@@ -20,13 +20,15 @@ header{
     padding: 1%;
     margin: 0;
     display: inline;
+    width: 100%;
 }
 #links a{
     text-decoration: none;
 }
 #links{
     margin: 0;
-    padding:0;
+    padding: 0;
+    width: 100%
 }
 #image-scroller {
     display: flex;
