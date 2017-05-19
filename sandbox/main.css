@@ -17,10 +17,9 @@ header{
 }
 #links li{
     list-style-type: none;
-    padding: 1%;
+    padding: 0;
     margin: 0;
     display: inline;
-    width: 100%;
 }
 #links a{
     text-decoration: none;
@@ -28,7 +27,7 @@ header{
 #links{
     margin: 0;
     padding: 0;
-    width: 100%
+    width: 100%;
 }
 #image-scroller {
     display: flex;
