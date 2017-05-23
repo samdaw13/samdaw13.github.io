@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Franklin Wireframe | CIT 230 | Wireframe</title>
+    <title>Franklin Webpage | CIT 230 | Wireframe</title>
     <meta name="description" content="Short Description of the page.">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -12,7 +12,7 @@
 <body>
     <header>
         <div id="logoDiv">
-            <h1 id="logo"><span id="dice"><span id="dice2"> &#9861;</span></span>Feeling Lucky?</h1>
+            <h1 id="logo"><span id="dice">&#9856;</span><span id=rotated-die>&#9861;</span>Feeling Lucky?</h1>
             <h3 id="local-weather">Local Weather</h3>
         </div>
         <nav>
@@ -29,19 +29,20 @@
         <div id="weatherWhereYouAre">
             <h2 id="city-name">Franklin, ID</h2>
             <div id="temerature">
-                <h2>16</h2>
+                <h2>16 &deg;</h2>
                 <p id="temp"><span id="sun">&#9728;</span> 17/3</p>
             </div>
-        <div id="currentConditions">
-            <h2>Current Conditions</h2>
-            <dl id="weather">
-                <dt>Wind:</dt>
-
-                <dd>1-5 MPH</dd>
-                <dt id="percipitation">Precipitaion:</dt>
-                <dd>Southwest</dd>   <dd id="inches">0 in</dd>
-            </dl>
-        </div>
+            <div id="currentConditions">
+                <h2><span>&#9858;</span> Current Conditions</h2>
+                <div id="weather">
+                    <div id="wind">
+                       <span><br>Wind:</span> <span>Precipitaion:</span>
+                    </div>
+                    <div id="actual">
+                        <span>1-5 MPH</span><span> Southwest</span><span> 0 in</span>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <div id="hourlyForecast" class="hidden">
