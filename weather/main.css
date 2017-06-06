@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#body-font{
+    font-family: Roboto;
+}
+.square{
+    height: 55px;
+}
+#blue-square {
+    background-color: #063870;
+}
+#grey-square {
+    background-color: #7C8187;
+}
+#white{
+    background-color: #FFFFFF;
+}
+#light-grey {
+    background-color: #767F8E;
+}
+#black-blue {
+    background-color: #042355
+}
+#large-wireframe img{
+    height:500px;
+}
