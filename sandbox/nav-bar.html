@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        ul.topnav li {}
+
+        ul.topnav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.topnav li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        ul.topnav li a.active {
+            background-color: #4CAF50;
+        }
+
+        ul.topnav li.right {}
+
+        @media screen and (min-width: 600px) {
+            nav {
+                display: flex;
+                justify-content: space-between;
+                background-color: #333;
+            }
+            .topnav{
+                display: flex;
+
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="topnav">
+                <li><a class="active left" href="#home">Home</a></li>
+                <li><a class="left" href="#news">News</a></li>
+                <li><a class="left" href="#contact">Contact</a></li>
+            </ul>
+            <ul class="topnav">
+                <li class="right"><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div style="padding:0 16px;">
+            <h2>Responsive Topnav Example</h2>
+            <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
+            <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+            <h4>Resize the browser window to see the effect.</h4>
+            <a href="https://samdaw13.github.io/">Home</a>
+        </div>
+    </main>
+</body>
+
+</html>
