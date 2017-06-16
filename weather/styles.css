@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+header section{
+    display: flex;
+    align-items: center;
+    background-color: #063870;
+    color: white;
+}
+header span {
+    font-size: 1.9em;
+    padding: 0em .25em;
+}
+header h1 {
+    font-size: 1.3em;
+}
+nav{
+
+}
+nav ul{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #7C8187;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: .75em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:visited{
+    color: white;
+}
+nav a:hover{
+    color: #042355;
+}
+nav li{
+    width: 100%;
+    text-align: center;
+}
+main{
+    background-image: url(https://byui-cit.github.io/cit230/images/sunny-winter.jpg);
+    background-size: cover;
+    color: white;
+
+}
+#city-name{
+    display: flex;
+    justify-content: center;
+}
+#city-name h1{
+    margin-top: 1em;
+    padding: .5em 2em;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgba(4, 35, 85, .8);
+}
+#weather{
+    display: flex;
+    justify-content: center;
+}
+#weather div{
+    margin-top: 2em;
+    background-color: rgba(4, 35, 85, .8);
+    padding: 1em
+
+}
+#wind {
+    text-align: right;
+    padding-right: .5em;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#actual {
+    padding-left: .5em;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#forecast{
+    display: flex;
+    justify-content: center;
+}
+#hourlyForecast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+    max-width: 75%;
+    border: 1px solid black;
+    background-color: rgba(4, 35, 85, .8);
+    border-radius: 8px;
+    padding: 1em
+
+}
+#hourlyFofrecast h1{
+
+}
+#hourlyForecast ul{
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+    width: 75%
+}
+#hourlyForecast li{
+    list-style-type: none;
+    padding: 0em 2em;
+}
+footer{
+    background-color: #7C8187;
+    color: white;
+    padding: 1em;
+}
+@media screen and (min-width: 500px){
+    header section{
+
+    }
+    nav{
+        font-size: 1.5em
+    }
+}

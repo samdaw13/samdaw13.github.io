@@ -37,7 +37,6 @@ main {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    background-image: url(https://byui-cit.github.io/cit230/images/sunny-winter.jpg);
     background-size: cover;
 }
 
