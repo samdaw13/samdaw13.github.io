@@ -125,9 +125,25 @@ footer{
 }
 @media screen and (min-width: 500px){
     header section{
-
+        font-size: 2em;
     }
     nav{
         font-size: 1.5em
+    }
+    main {
+        background: white;
+        display: flex;
+        height: 300px
+    }
+    #main-content{
+        width: 66%;
+        background-image: url(https://byui-cit.github.io/cit230/images/sunny-winter.jpg);
+        background-size: cover;
+    }
+    #forecast{
+        width: 34%;
+    }
+    #hourlyForecast ul{
+        margin-top: 2em;
     }
 }
