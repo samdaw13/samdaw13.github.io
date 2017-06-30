@@ -1,0 +1,67 @@
+<!doctype HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Star Wars Ships | CIT 230 | Web Frontened Development</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="starwars.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <h1>Star Wars <br>Starships </h1>
+            </nav>
+        </header>
+        <main>
+            <section id="list-of-ships">
+                <h2>List of  Ships</h2>
+                <ul id="ship-list">
+
+                </ul>
+                <section id='buttons'>
+                    <button id="previousButton" onclick="previous()">Previous</button>
+                    <button id="nextButton" onclick="next()">Next</button>
+                    <span id="warning"></span>
+                </section>
+            </section>
+            <section id="details-of-ship">
+                <dl>
+                    <dt>Name:</dt>
+                    <dd id="name"></dd>
+                    <dt>Model:</dt>
+                    <dd id="model"></dd>
+                    <dt>Manufacturer:</dt>
+                    <dd id="manufactuerer"></dd>
+                    <dt>Cost in Credits:</dt>
+                    <dd id="cost"></dd>
+                    <dt>Length:</dt>
+                    <dd id="length"></dd>
+                    <dt>Max Atmosphering Speed:</dt>
+                    <dd id="max_atmosphering_speed"></dd>
+                    <dt>Crew:</dt>
+                    <dd id="crew"></dd>
+                    <dt>Passengers</dt>
+                    <dd id="passengers"></dd>
+                    <dt>Cargo Capacity:</dt>
+                    <dd id="cargo_capacity"></dd>
+                    <dt>Consumables:</dt>
+                    <dd id="consumables"></dd>
+                    <dt>Hyperdrive Rating</dt>
+                    <dd id="hyperdrive_rating"></dd>
+                    <dt>MGLT:</dt>
+                    <dd id="MGLT"></dd>
+                    <dt>Starship Class:</dt>
+                    <dd id="starship_class"></dd>
+                </dl>
+            </section>
+        </main>
+        <footer>
+
+            &copy; Sam Daw 2014
+        </footer>
+        <script type="text/javascript" src="starwars.js"></script>
+    </body>
+</html>

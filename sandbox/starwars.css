@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cabin');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Anton', sans-serif;
+
+}
+nav h1{
+    padding: 1em;
+    color: yellow;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cabin', sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    list-style-type: none;
+}
+dl{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+a {
+    text-decoration: none;
+}
+section{
+    padding: 6em
+}
+footer{
+    padding-left: 1em;
+}
+#details-of-ship{
+    display: none;
+}
+
