@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header section{
+    display: flex;
+    align-items: center
+}
+header img{
+    height: 75px;
+    padding: .5em;
+}
+header h1{
+    font-size: 2em;
+    padding-left: 1em
+}
+nav{
+    padding: 1em;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around
+}
+nav li{
+    font-size: 1.5em;
+}
+nav a{
+    text-decoration: none;
+}
