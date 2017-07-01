@@ -7,5 +7,10 @@ function getJSON(url) {
         console.log(error);
     });
 }
-var url = "/info.json";
-getJSON(url);
+function getPeople(url){
+    getJSON(url).then(function(data){
+        document.getElementById('row-one').innerHTML = data.people[1].name;
+    });
+}
+var url = "//samdaw13.github.io/project/info.json";
+getPeople(url);
