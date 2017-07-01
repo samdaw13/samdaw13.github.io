@@ -9,7 +9,17 @@ function getJSON(url) {
 }
 function getPeople(url){
     getJSON(url).then(function(data){
-        document.getElementById('row-one').innerHTML = data.people[1].name;
+        var dictators = data.people;
+        document.getElementById('row-one').innerHTML = "";
+        firstRow = document.getElementById('row-one')
+        dictators.forEach(function(person){
+            var tableData = document.createElement('td');
+            var image = document.createElement('img');
+            image.setAttribute('src', person.image);
+            tableData.appendChild(image);
+            firstRow.appendChild(tableData);
+
+        });
     });
 }
 var url = "//samdaw13.github.io/project/info.json";
