@@ -30,7 +30,18 @@ function getPeople(url){
             secondRow.appendChild(tableData);
             anchor.addEventListener('click', function(event){
                event.preventDefault();
-                document.getElementById('information').innerHTML = person.rise-to-power;
+                document.getElementById('information').style.display = 'block';
+
+                document.getElementById('nickname').innerHTML = person.nickname;
+
+                document.getElementById('birthdate').innerHTML = person.birthdate;
+
+                document.getElementById('birthplace').innerHTML = person.birthplace;
+
+                document.getElementById('deathdate').innerHTML = person.deathdate;
+
+                document.getElementById('rise-to-power').innerHTML = person.risetopower;
+
             });
         });
     });
