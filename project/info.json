@@ -39,5 +39,166 @@
         "risetopower": "<p>&nbsp;Stalin started out in a minor position in the Bolshevik party, but caught his break when Lenin, leader of the party, made Stalin Secretary General.</p><br><p>&nbsp;Stalin began to build a power base, waiting for the day when Lenin would die, and he could seize power. As the Secretary General, he had the power to appoint people loyal to him to various positions in the government, in addition to this he also could read all the files of the party, and would spend hours finding who was loyal to who and who was important. Eventually Lenin did die, and a five-year power struggle began between Stalin and Trotsky. However, Trotsky did not have the power base Stalin had, and furthermore was not nearly as popular as Stalin was. Eventually due to these handicaps Stalin won the power struggle.</p><br><p>&nbsp;Stalin quickly seized ownership of the few industrial centers not already controlled by the government, primarily the farms in the Soviet Union, and killed several who resisted. This was to counter-act the Great Depression, which was crippling the world at the time. Shortly after, he purged the military of any not loyal to him, thus creating a timid and indecisive army. He used this army to attack Finland, which turned out to be a colossal military disaster for the Soviet Union. Shortly after that, World War II began.</p><br>"
     }
 
+    ],
+    "earlyAxisVictories": [
+        {
+            "image": "images/german-tanks-poland.jpg",
+            "image2": "images/polish-cavalry.jpg",
+            "battleName": "The Partitioning of Poland",
+            "operationName": "Operation  Himmler",
+            "casualtiesAxis": "59,000",
+            "casualtiesAllied": "859,700",
+            "dateBegan": "September 1, 1939",
+            "dateEnded": "October 6, 1939",
+            "victor": "Nazi Germany",
+            "description": "<p>&nbsp;The invasion of Poland is what kicked off World War two, although it was not the first country that Hitler took over. He had already taken over Austria and Czechoslovakia by annexation and political trickery.</p><br><p>&nbsp;Hitler expected that the Western powers would do nothing when he invaded Poland, because he had signed a non-aggression treaty with the Soviet Union, so there would be no effective Eastern Front against the Germans. In fact, he went so far as to split Poland with the Soviets. However, a new Prime minister had been elected to Great Britain’s Parliament, and Winston Churchill would no longer appease Hitler, so Great Britain and France declared war on Germany.</p><br><p>&nbsp;The invasion of Poland itself was very quick, lasting just over one month, because the Germans implemented a new tactic called 'Blitzkrieg' or Lightning War. This tactic was extremely effective against the Polish army. Most of the Polish army surrendered to the Germans, hence the very high casualties.</p>"
+        },
+        {
+            "image": "images/german-tank-norway.jpg",
+            "image2": "images/germans-invade-denmark.jpg",
+            "battleName": "Conquest of Scandiavia",
+            "operationName": "Weserubung",
+            "casualtiesAxis": "5,318",
+            "casualtiesAllied": "6,651",
+            "dateBegan": "April 9, 1940",
+            "dateEnded": "June 10 1940",
+            "victor": "Nazi Germany",
+            "description": "<p>&nbsp;At this time, Hitler received most of the metal used to make Germany's weapons from Sweden, and the Allies knew this. Although Denmark and Norway were neutral countries, Hitler knew something had to be done to protect his iron ore supply.</p><br><p>&nbsp;The Allies partially made the first move by sending expedition forces to Norway to disrupt the convoys being sent from Sweden. Hitler countered by invading Denmark and Norway.</p><br><p>&nbsp;The invasion of Denmark was brief to say the least. The Danes saw what happened in Poland, and with most of their country adjacent to Germany, knew that their tiny army had no chance, so they surrendered almost without a fight.</p><br><p>&nbsp;Norway was trickier, Allied troops from Great Britain primarily had landed and were ready to support Norway. The Germans knew that if Norway had time to prepare, they could mine the fjords leading to their primary cities, making it very difficult to invade the country. So the Germans acted quickly, they sent their ships flying the Union Jack, pretending to be British Ships, thus tricking the Norwegians into letting them into their capital city of Oslo, and taking it with little resistance.</p><br><p>&nbsp;However, the King of Norway managed to escape, and began to conduct a guerilla warfare with what was left if his army, and the British soldiers in Norther Norway.</p><br><p>&nbsp;Ironically, it was in northern Norway where the British and German soldiers first fought each other. Although their defense was admirable, eventually trouble on the western front forced the British troops to leave, leaving the rest of Norway to the Germans to overrun.</p>"
+        },
+        {
+            "image": "images/hitler-eiffle-tower.jpg",
+            "image2": "images/germains-invade-paris.jpg",
+            "battleName": "Fall of Western Europe",
+            "operationName": "Case Red",
+            "casualtiesAxis": "163,676",
+            "casualtiesAllied": "360,000",
+            "dateBegan": "May 10, 1940",
+            "dateEnded": "June 25, 1940",
+            "victor": "Nazi Germany",
+            "description": "<p>The French after the WW I had built a defensive line on the Franco-German border called the Maginot Line. However, the defensive wall only went to the border of neutral Belgium, and not all the way to the sea. The Belgians and Dutch were supposed to finish the wall, but instead they decided they would remain neutral, even though that did not work in WW I.</p><br><p>&nbsp;France and Britain begged them to allow troops in to defend Belgium, because it was obvious that the Germans would invade through there again, just like in WW I. But, the Belgian government refused, thinking their neutrality would stop the Germans, despite the fact that Germany had already violated the Neutrality of two countries, Denmark and Norway.</p><br><p>&nbsp;Finally, the day came and to no one’s surprise except Belgium's the German army invaded through Belgium, in order to go around the Maginot line. At last the government of Belgium pleaded for assistance from the Allies. The Allied army rushed into Belgium, only to find they played right into the hands of the Germans. Most of their army was quickly surrounded and on the run to Dunkirk. Leaving the road to Paris open and undefended to the Germans.</p><br><p>&nbsp;The Germans quickly overran Paris, and finally the Italians decided to join the war with Germany, and began an invasion of southern France, which turned out to be a disaster for the Italians.</p><br><p>&nbsp;The French quickly realized their position had become hopeless and surrendered to the Germans.</p>"
+        },
+        {
+            "images": "images/dunkir.jpg",
+            "image2": "images/dunkirk-evacuation.jpg",
+            "battleName": "Miracle of Dunkirk",
+            "operationName": "Operation Dynamo",
+            "casualtiesAxis": "20,000",
+            "casualtiesAllied": "68,111",
+            "dateBegan": "may 27, 1940",
+            "dateEnded": "June 4, 1940",
+            "victor": "Nazi Germany",
+            "description": "<p>During the Battle for France, over 400,000 Allied soldiers found themselves pinned on the beaches of Dunkirk, at the mercy of the Germans, thinking all was lost. However, Hitler made one of his great mistakes of the war, and instead of having his tanks finish off the Allied soldiers, he chose to have the airforce accomplish this, as to not give all the glory to the army.</p><br><p>&nbsp;The British scrambled together everything that could float and began to evacuate as many men as possible, even though they had to leave their weapons behind. Once Hitler realized his mistake, it was too late, he tied to advance with his tanks, but the Allies had set up a remarkable defence, and the tanks advanced slowly.</p><br><p>&nbsp;Almost all the 400,000 soliders were safley evacuated, and many of these soliders would be used in many campaigns in the future in North Africa and Normandy.</p>"
+        },
+        {
+            "image": "images/battle-of-britain-st-paul.jpg",
+            "image2": "images/battle-of-britain0german-bombers.jpg",
+            "battleName": "The Battle of Britain",
+            "operationName": "Operation Sealion",
+            "casualtiesAxis": "4,245",
+            "casualtiesAllied": "1,964",
+            "dateBegan": "July 10, 1940",
+            "dateEnded": "October 31, 1940",
+            "victor": "Great Britain",
+            "description": "<p>After the Battle of France, Hitler tried to get Britain to give up, and stop fighting. This is often considered the darkest time of the war. Great Britain was under siege, German U-boats were sinking the desperately needed convoy ships headed to Great Britain, and the British were alone against the Nazis.</p><br><p>&nbsp;The Nazis began to make preparations to invade England, the Germans quickly realized the largest obstacle was the British Navy, and there was little chance that they would be able to match the naval power of Great Britain. Instead, they chose to wipe out the British Airforce, or the RAF, then Germany would use their air force to destroy the British navy, leaving England open to invasion.</p><br><p>&nbsp;Thus commenced the first all out air battle in history, which is why the casualties are so low, because all the fighting happened in the air. The Germans were starting to win, but then by pure chance, the British accidently bombed Berlin, which enraged Hitler to no end. He decided that instead of attacking military targets in England, he chose to bomb civilian centers.</p><br><p>&nbsp;While it was a horrific strategy, it gave the RAF the breathing room they needed to recover, and eventually beat the Germans to such and extent that the Germans would never recover from the lost aircraft. This was Hitler's first defeat, and it would not be his last.</p>"
+
+        },
+        {
+            "image": "images/pearl-harbor.jpg",
+            "image2": "images/pearl-harbor-2.jpg",
+            "battleName": "Attack on Pearl Harbor",
+            "operationName": "Operation K",
+            "casualtiesAxis": "65",
+            "casualtiesAllied": "3,581",
+            "dateBegan": "December 7, 1941",
+            "dateEnded": "December 7, 1941",
+            "victor": "Imperial Japan",
+            "description": "<p>Japan needed to expand, but they knew that if they expanded further, they would have to fight the United States. A bold strategy was proposed, if a sneak attack on the port of Pearl Harbor, where most of the United States pacific fleet was, thus crippling the United States ability to effectively conduct war in the pacific, allowing the Japanese to overrun large portions of the pacific.</p><br><p>&nbsp;The Japanese prepared carefully, not even telling Hitler about the attack that was about to commence. Luckily, the American aircraft carriers were on a patrol mission away from Pearl harbor, which turned out to be fortunate, as the aircraft carrier was the most effective ship for war in the pacific.</p><br><p>&nbsp;The Japanese destroyed the fleet that was docked in Pearl Harbor, and on the same day launched assaults on Guam, Hong Kong, Singapore, the Dutch East Indies, and the Philippines.</p><br><p>&nbsp;Although the fleet was sunk, almost all the ships were fixed and used later in the way. Furthermore, the Japanese did not destroy the dry docks, or the oil reserves at Pearl Harbor, which proved to be an invaluable resource for preparing to attack the Japanese.</p>"
+        }
+    ],
+    "turnOfTheTide": [
+        {
+            "battleName": "Invasion of Yugoslavia",
+            "operationName": "Operation 25",
+            "casualtiesAxis": "4,238",
+            "casualtiesAllied": "400,000",
+            "dateBegan": "April 6, 1941",
+            "dateEnded": "April 18, 1941",
+            "victor": "Nazi Germany",
+        },
+        {
+            "battleName": "Battle of Greece",
+            "operationName": "Operation Marita",
+            "casualtiesAxis": "107,200",
+            "casualtiesAllied": "73,294",
+            "dateBegan": "October 28, 1940",
+            "dateEnded": "June 1, 1941",
+            "victor": "Nazi Germany",
+        },
+        {
+            "battleName": "Battle of Moscow",
+            "operationName": "Operation Barbarossa",
+            "casualtiesAxis": "400,000",
+            "casualtiesAllied": "700,000",
+            "dateBegan": "October 2, 1941",
+            "dateEnded": "January 7, 1942",
+            "victor": "Soviet Union",
+        },
+        {
+            "battleName": "Siege of Leningrad",
+            "operationName": "Operation Barbarossa",
+            "casualtiesAxis": "579, 985",
+            "casualtiesAllied": "3,436,066",
+            "dateBegan": "September 8, 1941",
+            "dateEnded": "January 27, 1944",
+            "victor": "Soviet Union",
+
+        },
+        {
+            "battleName": "Battle of Stalingrad",
+            "operationName": "Winter Storm",
+            "casualtiesAxis": "730,000",
+            "casualtiesAllied": "1,129,619",
+            "dateBegan": "August 23, 1942",
+            "dateEnded": "February 2, 1943",
+            "victor": "Soviet Union",
+
+        },
+        {
+            "battleName": "Battle of El Alamein",
+            "operationName": "Western Desert Campaign",
+            "casualtiesAxis": "59,000",
+            "casualtiesAllied": "13,560",
+            "dateBegan": "October 23, 1942",
+            "dateEnded": "Noveber 11, 1942",
+            "victor": "Great Britain".
+        },
+        {
+            "battleName": "Guadalcanal Campaign",
+            "operationName": "Operation Watchtower",
+            "casualtiesAxis": "28,700",
+            "casualtiesAllied": "14,893",
+            "dateBegan": "August 7, 1942",
+            "dateEnded": "February 9, 1943",
+            "victor" : "United States",
+
+        },
+        {
+           "battleName": "Battle of Coral Sea",
+            "operationName": "Coarl Sea",
+            "casualtiesAxis": "966",
+            "casualtiesAllied": "656",
+            "dateBegan": "May 4, 1942",
+            "dateEnded": "May 8, 1942",
+            "victor": "United States"
+        },
+        {
+            "battleName": "Battle of Midway",
+            "operationName": "Midway",
+            "casualtiesAxis": "3,364",
+            "casualtiesAllied": "307",
+            "dateBegan": "June 4, 1942",
+            "dateEnded": "June 7, 1942",
+            "victor": "United States",
+        }
     ]
 }

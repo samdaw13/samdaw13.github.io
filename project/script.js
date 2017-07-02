@@ -11,8 +11,8 @@ function getPeople(url){
     getJSON(url).then(function(data){
         var dictators = data.people;
         document.getElementById('row-one').innerHTML = "";
-        firstRow = document.getElementById('row-one');
-        secondRow = document.getElementById('row-two')
+        var firstRow = document.getElementById('row-one');
+        var secondRow = document.getElementById('row-two');
         dictators.forEach(function(person){
             var tableData = document.createElement('td');
             var image = document.createElement('img');
@@ -46,5 +46,23 @@ function getPeople(url){
         });
     });
 }
+
+function getEarlyVictories(url){
+    getJSON(url).then(function(data){
+        var earlyBattles = data.earlyAxisVictories;
+        var rowOne = document.getElementById('first-row');
+        var rowTwo = document.getElementById('second-row');
+        var rowThree = document.getElementById('third-row');
+        var rowFour = document.getElementById('fourth-row');
+        for(var i = 0; i <= 2; i++){
+            var tableData = document.createElement('td');
+            var image = document.createElement('img');
+            image.setAttribute('src', earlyBattles[i].image);
+            tableData.appendChild(image);
+            rowOne.appendChild(tableData);
+        }
+    });
+}
 var url = "//samdaw13.github.io/project/info.json";
 getPeople(url);
+getEarlyVictories(url);
