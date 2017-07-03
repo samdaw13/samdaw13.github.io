@@ -54,6 +54,39 @@ function getEarlyVictories(url){
         var rowTwo = document.getElementById('second-row');
         var rowThree = document.getElementById('third-row');
         var rowFour = document.getElementById('fourth-row');
+        for(var i = 0; i <= 2; i++){
+
+            var tableData = document.createElement('td');
+            var image = document.createElement('img');
+            image.setAttribute('src', earlyBattles[i].image);
+            rowOne.appendChild(tableData);
+
+            var tableData1 = document.createElement('td');
+
+
+            var battleStuff = document.createTextNode(earlyBattles[i].battleName);
+            tableData.appendChild(image);
+            tableData.appendChild(battleStuff);
+           rowTwo.appendChild(tableData1);
+
+        }
+        for(var i = 3; i <= 6; i++){
+
+            var tableData = document.createElement('td');
+            var image = document.createElement('img');
+            image.setAttribute('src', earlyBattles[i].image);
+            rowThree.appendChild(tableData);
+
+            var tableData1 = document.createElement('td');
+
+
+            var battleStuff = document.createTextNode(earlyBattles[i].battleName);
+            tableData.appendChild(image);
+            tableData.appendChild(battleStuff);
+            rowFour.appendChild(tableData1);
+
+        }
+
     });
 }
 var url = "//samdaw13.github.io/project/info.json";
