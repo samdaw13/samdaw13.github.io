@@ -54,13 +54,6 @@ function getEarlyVictories(url){
         var rowTwo = document.getElementById('second-row');
         var rowThree = document.getElementById('third-row');
         var rowFour = document.getElementById('fourth-row');
-        for(var i = 1; i <= 2; i++){
-            var tableData = document.createElement('td');
-            var image = document.createElement('img');
-            image.setAttribute('src', earlyBattles[i].image);
-            tableData.appendChild(image);
-            rowOne.appendChild(tableData);
-        }
     });
 }
 var url = "//samdaw13.github.io/project/info.json";

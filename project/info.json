@@ -11,7 +11,7 @@
             "risetopower": "<p>&nbsp;Hitler always had an obsession with Germany, even though he was born in the Empire of Austria-Hungary he fought for  Imperial Germany during the First World War.</p><br><p>&nbsp; After Germany's defeat in the First World War, Hitler remained in what was left of the German Army. He was assigned to spy on one of the political parties, the German Workers Party. He quickly realized that he could add to this little party, he joined the party, and forced them to make him the Dictator for Life of the party. He changed the name to the Nationalist Socialist German Workers Party, or the Nazi Party.</p><br><p>&nbsp;After a failed attempt to illegally seize power, Hitler realized he would have to use the new Weimar Constitution to rise to power. He quickly began to gain support by feeding on the misery of the people during the Great Depression. Eventually he was elected Chancellor of Germany, and the President died, leaving a provision in his will to support Hitler, Hitler took this to mean that he should also be the President. Shortly afterwards, he gave himself dictatorial powers over Germany, and began to prepare for war.</p><br>"
 
     },
-    {
+        {
         "image": "images/benito-mussolini.jpg",
         "name": "Benito Mussolini",
         "nickname": "Il Duce",
@@ -20,7 +20,7 @@
         "birthplace": "Predappio, Italy",
         "risetopower": "<p>&nbsp;Mussolini's party rose to power quickly, and easily in Italy. After the First World War, although Italy had been with the victorious Allied powers, Italy still faced terrible economic trouble. Furthermore, the Soviet Union was spreading it's communist doctrine to the world, and many Italians feared Italy would too, become a communist nation.</p><br><p>&nbsp;Mussolini's party fed off of these fears, and promised to fix the economic crisis, stop the communists, and restore Italy to the glory of the Roman Empire.</p><br><p>&nbsp;Mussolini and his Black Shirt militia began their March on Rome, and when the police refused to stop them, the King of Italy gave control of the government to Mussolini, by granting him emergency powers for one year. However, Mussolini never let go of his power, and thus unwittingly, the King of Italy plunged Italy into a dictatorship that would last for twenty years.</p><br><p>&nbsp;Quickly Mussolini eliminated all opposition to his political party, and began to attempt to fix the economy. He also chose to conquer the Kingdom of Ethiopia, one of the last independent nations in Africa. The king of Ethiopia pleaded with the League of Nations for support, but other than sanctions against Italy, no support was provided.</p><br><p>&nbsp;Although initially Italy was not friendly with Nazi Germany, eventually Italy became Germany's closest ally when the war began.</p><br>"
     },
-    {
+        {
         "image": "images/hirohito.jpg",
         "name": "Michinomiya Hirohito",
         "nickname": "Emporer of Japan",
@@ -29,7 +29,7 @@
         "birthplace": "Togu Palace, Tokyo, Japan",
         "risetopower": "<p>&nbsp;Hirohito himself didn't really rise to power as did the other dictators. Rather, during the 19th century, the United States introduced the power of the West to the Empire of Japan. Shortly after the Emperor overthrew the Shogun, known as the Meiji Restoration, and shortly after began to quickly westernize the Empire of Japan.</p><br><p>&nbsp;Part of Westernizing was that Japan needed to expand its borders well beyond what they currently were. Quickly Japan overran Korea at the close of the 19th century, and began a series of wars with Imperial Russia, in which Japan emerged victorious. Shortly after that Hirohito ascended the throne.</p><br><p>&nbsp;Despite these conquests, Japan was not immune to the Great Depression, forcing Japan to keep expanding her territory at the expense mostly of China. However, there was a lot of confusion because Hirohito rarely gave direct commands, rather he tried to help set up for these events to take place by firing generals and ministers. Eventually Japan controlled large portions of the Chinese coast, and in response America posed sanctions, thus forcing Japan to expand even further, leading to their part in the World War II."
     },
-    {
+        {
         "image":"images/joseph-stalin.jpg",
         "name": "Joseph Stalin",
         "nickname": "Man of Steel",
@@ -124,6 +124,7 @@
             "dateBegan": "April 6, 1941",
             "dateEnded": "April 18, 1941",
             "victor": "Nazi Germany",
+            "description": ""
         },
         {
             "battleName": "Battle of Greece",
@@ -133,6 +134,7 @@
             "dateBegan": "October 28, 1940",
             "dateEnded": "June 1, 1941",
             "victor": "Nazi Germany",
+            "description": ""
         },
         {
             "battleName": "Battle of Moscow",
@@ -142,6 +144,7 @@
             "dateBegan": "October 2, 1941",
             "dateEnded": "January 7, 1942",
             "victor": "Soviet Union",
+            "description": ""
         },
         {
             "battleName": "Siege of Leningrad",
@@ -151,6 +154,7 @@
             "dateBegan": "September 8, 1941",
             "dateEnded": "January 27, 1944",
             "victor": "Soviet Union",
+            "description": ""
 
         },
         {
@@ -161,6 +165,7 @@
             "dateBegan": "August 23, 1942",
             "dateEnded": "February 2, 1943",
             "victor": "Soviet Union",
+            "description": ""
 
         },
         {
@@ -170,7 +175,8 @@
             "casualtiesAllied": "13,560",
             "dateBegan": "October 23, 1942",
             "dateEnded": "Noveber 11, 1942",
-            "victor": "Great Britain".
+            "victor": "Great Britain",
+            "description": ""
         },
         {
             "battleName": "Guadalcanal Campaign",
@@ -180,6 +186,7 @@
             "dateBegan": "August 7, 1942",
             "dateEnded": "February 9, 1943",
             "victor" : "United States",
+            "description": ""
 
         },
         {
@@ -189,7 +196,8 @@
             "casualtiesAllied": "656",
             "dateBegan": "May 4, 1942",
             "dateEnded": "May 8, 1942",
-            "victor": "United States"
+            "victor": "United States",
+            "description": ""
         },
         {
             "battleName": "Battle of Midway",
@@ -199,6 +207,7 @@
             "dateBegan": "June 4, 1942",
             "dateEnded": "June 7, 1942",
             "victor": "United States",
+            "description": ""
         }
     ]
 }
