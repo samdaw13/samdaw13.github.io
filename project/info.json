@@ -117,6 +117,7 @@
     ],
     "turnOfTheTide": [
         {
+            "image": "images/yougoslavia.jpg",
             "battleName": "Invasion of Yugoslavia",
             "operationName": "Operation 25",
             "casualtiesAxis": "4,238",
@@ -124,9 +125,10 @@
             "dateBegan": "April 6, 1941",
             "dateEnded": "April 18, 1941",
             "victor": "Nazi Germany",
-            "description": ""
+            "description": "<p>&nbsp;Yugoslavia originally supported, and was allied to Nazi Germany. However, there was a revolution, and a new anti-Nazi government was put in place. This new government lasted only one day, and the one that replaced it was again pro-Nazi. But, Hitler flew into a rage and insisted that Yugoslavia be destroyed at once.</p><br><p>&nbsp;The invasion was brief, but it cost Hitler precious time. Because he used the armies that were supposed to invade the Soviet Union to destroy the Yugoslav state. This delayed the invasion of the Soviet Union by a month, which the German generals would curse, when their armies were a month from Moscow, and the snow set in</p>"
         },
         {
+            "image": "images/greece.jpg",
             "battleName": "Battle of Greece",
             "operationName": "Operation Marita",
             "casualtiesAxis": "107,200",
@@ -134,9 +136,10 @@
             "dateBegan": "October 28, 1940",
             "dateEnded": "June 1, 1941",
             "victor": "Nazi Germany",
-            "description": ""
+            "description": "<p>&nbsp;The invasion of Greece also happened at an inconvenient time. The strutting Duce of Italy felt jealous of Hitler's successful invasions, and he felt left out because Hitler never told Mussolini who or when he was going to attack. As a result, the Italian dictator decided to invade neutral Greece, and let Hitler learn about it from the news papers.</p><br><p>&nbsp;One unexpected development was that the Italian invasion was a complete disaster. It was launched from the Italian colony of Albania, and it was not long until the Greek army was pushing into Albania, chasing the routing Italian army. Hitler had little choice but to invade Greece with a fraction of the forces that the Italians used. The German armies quickly took over the country, climaxing in a paratrooper invasion of island of Crete.</p><br><p>&nbsp;Although the invasion was a success, it was unnecessary for Hitler's goals, and only helped to delay the invasion of the Soviet Unions. Condemning thousands of soldier to freeze to death in the Russian winter.</p>"
         },
         {
+            "image": "images/moscow.png",
             "battleName": "Battle of Moscow",
             "operationName": "Operation Barbarossa",
             "casualtiesAxis": "400,000",
@@ -144,9 +147,10 @@
             "dateBegan": "October 2, 1941",
             "dateEnded": "January 7, 1942",
             "victor": "Soviet Union",
-            "description": ""
+            "description": "<p>&nbsp;The Nazis were able to take large amounts of territory in the Soviet Union. The basic strategy was to have one army group take Saint Petersburg, anothe capture the Caucusus oil fields, and the final to captuer Moscow.</p><br><p>&nbsp;The most successful of these groups was the group assigned to take Moscow, however after crossing 300 kilometers, and with only 30 to go to reach the capitol, the Autumn rains began, boggin down the German army in the mud, and shortly after the snow came.</p><br><p>&nbsp;One German battalion advanced far enough to make out the spires of the Kremlin, but that same day was pushed back. The battle marked a significant turning point for the German offinsive, never again would the Germans make a serious attack on the Soviet capitol. After the attack, Hitler decided instead that when the snow melted, he would focus on the Cacusu oil fields, and the city of Stalingrad, the city of Germany's greatest defeat, and the begining of the end for the Nazi warlord.</p>"
         },
         {
+            "image": "images/leningrad.jpg",
             "battleName": "Siege of Leningrad",
             "operationName": "Operation Barbarossa",
             "casualtiesAxis": "579, 985",
@@ -154,10 +158,11 @@
             "dateBegan": "September 8, 1941",
             "dateEnded": "January 27, 1944",
             "victor": "Soviet Union",
-            "description": ""
+            "description": "<p>&nbsp;Hitler, realizing that the city of Leningrad was to heavily defended to outright capture, decided that rather than pulling soldiers from the successful army group that was preparing to attack Moscow, that it would be better to siege the city of Leningrad, and take it without use of arms.</p><br><p>&nbsp;The siege was horrific for the people of Leningrad, it lasted almost three years, and the people would have starved to death if it wasn’t for the fact that the winters would get so cold, that a river would freeze over so much that supply trucks could drive over it, earning the nickname 'The Road of Life'.</p><br><p>&nbsp;The reason why the casualties are so high is primarily because the citizens are included in the total, and also because the siege lasted for three years, giving plenty of time for millions to starve to death, rather than dying in combat.</p>"
 
         },
         {
+            "image": "images/stalingrad.jpg",
             "battleName": "Battle of Stalingrad",
             "operationName": "Winter Storm",
             "casualtiesAxis": "730,000",
@@ -165,10 +170,11 @@
             "dateBegan": "August 23, 1942",
             "dateEnded": "February 2, 1943",
             "victor": "Soviet Union",
-            "description": ""
+            "description": "<p>&nbsp;Considered by many historians to be the bloodiest battle in history, Stalingrad is what broke the German offensive in the Soviet Union. Stalingrad was located in a place that it would be easy to cut off access to the oil fields south of the city in the Caucasus mountains. Furthermore the propaganda value of winning the battle named after the dictator of the Soviet Union could not be understated in the minds of Hitler and Stalin.</p><br><p>&nbsp; The city was almost totally overrun in the first months of fighting, but a few small pockets of Soviet resistance held out long enough for reinforcements to arrive over the river east of the city, prolonging the attack just long enough that winter began to set in. </p><br><p>&nbsp;At this point, the German generals knew that the position the German army in Stalingrad was in grave danger of being cut off, and the generals began to plead with Hitler to allow the men to retreat, in order to save their lives. But Hitler wouldn't have it. He felt that if they started to retreat now, it would devolve into an all-out rout, and the war would be lost. He felt that if the men just pushed a little harder, fought a little longer, then they would be triumphant.</p><br><p>&nbsp;However, ultimately, Hitler was wrong. The army in Stalingrad was cut off, a rescue was attempted by another German army, but the Soviet resistance was so intense they could not reach the city, and radioed the general in Stalingrad to meet them out of the city. However, out of loyalty to Hitler, the general refused.</p><br><p>&nbsp;Hitler ordered the men in Stalingrad to fight to the last man, to the last bullet, and to never give up. To say the least, once the army was cut off, the fighting didn't last much longer. The German soldiers were freezing, starving, and in desperate need of medical supplies, while on the other hand the Soviets kept getting fresh troops almost daily. The general in charge of the attack fought to the last, and surrendered.</p>"
 
         },
         {
+            "image": "images/el-alamein.jpg",
             "battleName": "Battle of El Alamein",
             "operationName": "Western Desert Campaign",
             "casualtiesAxis": "59,000",
@@ -176,9 +182,10 @@
             "dateBegan": "October 23, 1942",
             "dateEnded": "Noveber 11, 1942",
             "victor": "Great Britain",
-            "description": ""
+            "description": "<p>&nbsp;The war in north Africa could have easily been won by Germany earlier in the war, which would have severed the Suez canal, cutting of England from most of their empire. However, Hitler did not see any value in this at all, and refused to offer much aid to the Italian army in north Africa.</p><br><p>&nbsp;The Italian army commenced an invasion of British held Egypt, and like Greece, it was a horrific disaster. Grudgingly, Hitler sent a very small force to help, under the command of Erwin Rommel. Rommel turned out to be such a brilliant tactician, that he easily pushed the British out of Libya, and into Egypt.</p><br><p>&nbsp;Rommel's greatest enemy was, not Montgomery, the British general, but rather a crippling lack of supplies. The British had destroyed almost every Axis ship that crossed into north Africa. When the critical battle of El Alamein began, the Germans lost simply because they ran out of gas.</p><br><p>&nbsp;This defeat rendered any attempt to take control of north Africa obsolete, and the Axis powers were forced to give up the area to the Allies.</p>"
         },
         {
+            "image": "images/guadalcana.jpg",
             "battleName": "Guadalcanal Campaign",
             "operationName": "Operation Watchtower",
             "casualtiesAxis": "28,700",
@@ -186,20 +193,12 @@
             "dateBegan": "August 7, 1942",
             "dateEnded": "February 9, 1943",
             "victor" : "United States",
-            "description": ""
+            "description": "<p>&nbsp;The Japanese quickly after the attack on Pearl Harbor had captured the island chain known as the Solomon Islands. At the very end of the chain was an island called Guadalcanal, on which the Japanese were planning on building an air base. The problem was if the air base was completed, and the Japanese were allowed to get a solid foothold there, the United States would not have been able to support Australia, and Japan would have likely overrun the country.</p><br><p>&nbsp;The United States needed to take the island, both to project Australia, and to have a jump off point to start attacking other Japanese held islands. The battle was bloody, but eventually the bloodiness of the battle became all to familiar to the United States Marine Corp. After the United States won, the Japanese would have few victories in the Pacific against the Americans, and from now on, it would be a very slow retreat back to Japan.</p>"
 
         },
+
         {
-           "battleName": "Battle of Coral Sea",
-            "operationName": "Coarl Sea",
-            "casualtiesAxis": "966",
-            "casualtiesAllied": "656",
-            "dateBegan": "May 4, 1942",
-            "dateEnded": "May 8, 1942",
-            "victor": "United States",
-            "description": ""
-        },
-        {
+            "image": "images/midway.jpg",
             "battleName": "Battle of Midway",
             "operationName": "Midway",
             "casualtiesAxis": "3,364",
@@ -207,7 +206,7 @@
             "dateBegan": "June 4, 1942",
             "dateEnded": "June 7, 1942",
             "victor": "United States",
-            "description": ""
+            "description": "<p>&nbsp;There was a massive Japanese fleet heading towards the island of Midway, and likely to Hawaii after that. The United States navy engaged the Japanese fleet at Midway island, and the United States almost lost the battle there and then. However, the United States had a new plane that hadn't been tested in naval combat, heavy fighters, or tactical bombers. Basically, it was half fighter, half bomber. The regular fighters had little effect on the Japanese fleet, as did the big bombers. The tactical bombers however wiped out three Japanese carriers in five minutes, the most important five minutes in the war in the pacific. The United States quickly won the battle after that, crippling the Japanese navy.</p>"
         }
     ]
 }

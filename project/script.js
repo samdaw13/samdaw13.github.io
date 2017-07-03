@@ -132,75 +132,8 @@ function getEarlyVictories(url) {
             });
 
         }
-        /*for(var i = 0; i < 3; i++){
-            var tableData = document.createElement('td');
 
-            var anchor1 = document.createElement('a');
-            anchor1.setAttribute('href', "#");
-
-            anchor1.innerHTML = earlyBattles[i].battleName;
-            tableData.appendChild(anchor1);
-            rowTwo.appendChild(tableData);
-
-            anchor1.addEventListener('click', function (event) {
-
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
-
-                document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
-
-                document.getElementById('date-began').innerHTML = earlyBattles[i].dateBegan
-
-                document.getElementById('date-ended').innerHTML = earlyBattles[i].dateEnded
-
-                document.getElementById('victor').innerHTML = earlyBattles[i].victor;
-
-                document.getElementById('image').innerHTML = earlyBattles[i].image2;
-
-                document.getElementById('battle-description').innerHTML = earlyBattles[i].description;
-            });
-
-        }*/
-    }); /*earlyBattles.forEach(function(battle){
-            var image = document.createElement('img');
-            image.setAttribute('src', battle.image);
-            var tableRowOne = createElement('td');
-            tableRowOne.appendChild(image);
-            rowOne.appendChild(tableRowOne);
-        });
-        earlyBattles.forEach(function (battle) {
-            var tableData = document.createElement('td');
-
-            var anchor1 = document.createElement('a');
-            anchor1.setAttribute('href', "#");
-
-            anchor1.innerHTML = battle.battleName;
-            tableData.appendChild(anchor1);
-            rowTwo.appendChild(tableData);
-
-            anchor1.addEventListener('click', function (event) {
-
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('axis-casualties').innerHTML = battle.casualtiesAxis;
-
-                document.getElementById('allied-casualties').innerHTML = battle.casualtiesAllied
-
-                document.getElementById('date-began').innerHTML = battle.dateBegan
-
-                document.getElementById('date-ended').innerHTML = battle.dateEnded
-
-                document.getElementById('victor').innerHTML = battle.victor;
-
-                document.getElementById('image').innerHTML = battle.image2;
-
-                document.getElementById('battle-description').innerHTML = battle.description;
-            });
-        });
-
-
-    });*/
+    });
 
 }
 var url = "//samdaw13.github.io/project/info.json";
