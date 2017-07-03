@@ -10,7 +10,7 @@ function getJSON(url) {
 function getPeople(url){
     getJSON(url).then(function(data){
         var dictators = data.people;
-        document.getElementById('row-one').innerHTML = "";
+
         var firstRow = document.getElementById('row-one');
         var secondRow = document.getElementById('row-two');
         dictators.forEach(function(person){
@@ -54,7 +54,7 @@ function getEarlyVictories(url){
         var rowTwo = document.getElementById('second-row');
         var rowThree = document.getElementById('third-row');
         var rowFour = document.getElementById('fourth-row');
-        for(var i = 0; i <= 2; i++){
+        for(var i = 1; i <= 2; i++){
             var tableData = document.createElement('td');
             var image = document.createElement('img');
             image.setAttribute('src', earlyBattles[i].image);
