@@ -19,17 +19,20 @@ function getPeople(url) {
             var tableData = document.createElement('td');
             var image = document.createElement('img');
             image.setAttribute('src', person.image);
+
             tableData.appendChild(image);
             firstRow.appendChild(tableData);
+
+
         });
         dictators.forEach(function (person) {
-            var tableData = document.createElement('td');
+            var tableData1 = document.createElement('td');
             var anchor = document.createElement('a');
             anchor.setAttribute('href', '#');
             anchor.innerHTML = person.name;
-            tableData.appendChild(anchor);
+            tableData1.appendChild(anchor);
 
-            secondRow.appendChild(tableData);
+            secondRow.appendChild(tableData1);
             anchor.addEventListener('click', function (event) {
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
@@ -53,6 +56,7 @@ function getEarlyVictories(url) {
     getJSON(url).then(function (data) {
         var earlyBattles = data.earlyAxisVictories;
         var rowOne = document.getElementById('first-row');
+        document.getElementById('second-row').innerHTML = "";
         var rowTwo = document.getElementById('second-row');
         var rowThree = document.getElementById('third-row');
         var rowFour = document.getElementById('fourth-row');
@@ -72,14 +76,14 @@ function getEarlyVictories(url) {
         }
         for(let i = 0; i < 3; i++){
 
-            var tableData = document.createElement('td');
+            var tableData5 = document.createElement('td');
 
             var anchor1 = document.createElement('a');
             anchor1.setAttribute('href', "#");
 
             anchor1.innerHTML = earlyBattles[i].battleName;
-            tableData.appendChild(anchor1);
-            rowTwo.appendChild(tableData);
+            tableData5.appendChild(anchor1);
+            rowTwo.appendChild(tableData5);
 
             anchor1.addEventListener('click', function (event) {
 
@@ -103,14 +107,14 @@ function getEarlyVictories(url) {
         }
         for(let i = 3; i < 6; i++){
 
-            var tableData = document.createElement('td');
+            var tableData3 = document.createElement('td');
 
             var anchor1 = document.createElement('a');
             anchor1.setAttribute('href', "#");
 
             anchor1.innerHTML = earlyBattles[i].battleName;
-            tableData.appendChild(anchor1);
-            rowFour.appendChild(tableData);
+            tableData3.appendChild(anchor1);
+            rowFour.appendChild(tableData3);
 
             anchor1.addEventListener('click', function (event) {
 
@@ -136,6 +140,94 @@ function getEarlyVictories(url) {
     });
 
 }
+function turnOfTheTide(url){
+    getJSON(url).then(function (data) {
+        var turnOfTheTideBattles = data.turnOfTheTide;
+        var rowFive = document.getElementById('fifth-row');
+        var rowSix = document.getElementById('sixth-row');
+        var rowSeven = document.getElementById('seventh-row');
+        var rowEight = document.getElementById('eigth-row');
+        for(var i = 0; i < 4; i++){
+            var image = document.createElement('img');
+            image.setAttribute('src', turnOfTheTideBattles[i].image);
+            var tableRowFive = document.createElement('td');
+            rowFive.appendChild(tableRowFive); tableRowFive.appendChild(image);
+
+        }
+        for(var i = 4; i < 8; i++){
+            var image2 = document.createElement('img');
+            image2.setAttribute('src', turnOfTheTideBattles[i].image);
+            var tableRowSeven = document.createElement('td');
+            tableRowSeven.appendChild(image2);
+            rowSeven.appendChild(tableRowSeven);
+        }
+        for(let i = 0; i < 4; i++){
+
+            var tableData4 = document.createElement('td');
+
+            var anchor2 = document.createElement('a');
+            anchor2.setAttribute('href', "#");
+
+
+            anchor2.innerHTML = turnOfTheTideBattles[i].battleName;
+            tableData4.appendChild(anchor2);
+           rowSix.appendChild(tableData4);
+
+            anchor2.addEventListener('click', function (event) {
+
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
+
+                document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
+
+                document.getElementById('date-began').innerHTML = turnOfTheTideBattles[i].dateBegan
+
+                document.getElementById('date-ended').innerHTML = turnOfTheTideBattles[i].dateEnded
+
+                document.getElementById('victor').innerHTML = turnOfTheTideBattles[i].victor;
+
+
+
+                document.getElementById('battle-description').innerHTML = turnOfTheTideBattles[i].description;
+            });
+
+        }
+        for(let i = 4; i < 8; i++){
+
+            var tableData5 = document.createElement('td');
+
+            var anchor1 = document.createElement('a');
+            anchor1.setAttribute('href', "#");
+
+            anchor1.innerHTML = turnOfTheTideBattles[i].battleName;
+            tableData5.appendChild(anchor1);
+            rowEight.appendChild(tableData5);
+
+            anchor1.addEventListener('click', function (event) {
+
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
+
+                document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
+
+                document.getElementById('date-began').innerHTML = turnOfTheTideBattles[i].dateBegan
+
+                document.getElementById('date-ended').innerHTML = turnOfTheTideBattles[i].dateEnded
+
+                document.getElementById('victor').innerHTML = turnOfTheTideBattles[i].victor;
+
+
+
+                document.getElementById('battle-description').innerHTML = turnOfTheTideBattles[i].description;
+            });
+
+        }
+
+    });
+}
 var url = "//samdaw13.github.io/project/info.json";
-getPeople(url);
-getEarlyVictories(url);
+window.onload = getPeople(url);
+window.onload = getEarlyVictories(url);
+window.onload = turnOfTheTide(url);
