@@ -208,5 +208,188 @@
             "victor": "United States",
             "description": "<p>&nbsp;There was a massive Japanese fleet heading towards the island of Midway, and likely to Hawaii after that. The United States navy engaged the Japanese fleet at Midway island, and the United States almost lost the battle there and then. However, the United States had a new plane that hadn't been tested in naval combat, heavy fighters, or tactical bombers. Basically, it was half fighter, half bomber. The regular fighters had little effect on the Japanese fleet, as did the big bombers. The tactical bombers however wiped out three Japanese carriers in five minutes, the most important five minutes in the war in the pacific. The United States quickly won the battle after that, crippling the Japanese navy.</p>"
         }
+    ],
+    "alliedOffensive": [
+        {
+            "image": "images/invasion-of-sicily.jpg",
+            "battleName": "Invasion of Sicily",
+            "operationName": "Operation Husky",
+            "casualtiesAxis": "218,042",
+            "casualtiesAllied": "22,781",
+            "dateBegan": "9 July 1943",
+            "dateEnded": "17 August 1943",
+            "victor": "Allies",
+            "description": "<p>&nbsp;After liberating North Africa from the Axis, the next step for the Allies was the invasion of Italy, starting with Sicily. The main city that had to be captured was Messina, the city closes to the main Italian peninsula.</p><br><p>&nbsp;The Allies invaded from two different points of the island, the south-eastern coast, and the other the central southern coast. While the Axis powers tried desperately to hold onto the island, it was impossible due to the sheer size of the Allied forces.</p><br><p>&nbsp;Possible the most significant part of this battle is after the Allies took Messina, the Italians removed Mussolini from power, and the Italians joined the Allies, forcing German troops to defend the peninsula.</p>"
+
+
+        },
+        {
+            "image": "images/kursk.jpg",
+            "battleName": "Battle of Kursk",
+            "operationName": "Operation Citadel",
+            "casualtiesAxis": "198,000",
+            "casualtiesAllied": "863,000",
+            "dateBegan": "5 July 1943",
+            "dateEnded": "16 July 1943",
+            "victor": "Soviet Union",
+            "description": "<p>&nbsp;The Battle of Kursk is particularly famous, as being the largest tank battle i history, with over 10,000 tanks total. After the crushing defeat at Stalingrad, and the recent invasion of Sicily, the Germans had no reserves to support the main army. The plan was to cut off a large Soviet force that had created a budge in the front, in order to do that there would be German offences in the north and south ends of the budge.</p><br><p>&nbsp;However, Soviet resistance was so stiff, the Soviets were able to stop the German offensive, which is the first time any power had been able to do that in the summer. The Germans quickly began to lose after that, this would be the last major offensive of the Germans in the Eastern Front during World War II. From now on, the Soviets would enjoy the initiative.</p>"
+        },
+        {
+            "image": "images/peleliu.jpg",
+            "battleName": "Battle of Peleliu",
+            "operationName": "Operation Stalemate II",
+            "casualtiesAxis": "10,695",
+            "casualtiesAllied": "10,786",
+            "dateBegan": "September 15 1944",
+            "dateEnded": "November 27 1944",
+            "victor": "Allies",
+            "description": "<p>&nbsp;Peleliu was one of the bloodies battles in the Pacific for the Americans. The Japanese, as always, fought to the death and would not retreat no matter what. The battle was fought to secure an airstrip on the island that would help be a jump off point to the Philippines and other islands in the central Pacific.</p><br>&nbsp;While the battle was important, some wondered if the two months of fighting and dying was worth the small airstrip. In the end, the battle was fought to its grim conclusion.</p>"
+        },
+        {
+            "image": "images/tarawa.jpg",
+            "battleName": "Battle of Tarawa",
+            "operationName": "Operation GALVANIC",
+            "casualtiesAxis": "4,690",
+            "casualtiesAllied": "3,110",
+            "dateBegan": "November 20 1943",
+            "dateEnded": "November 23 1943",
+            "victor": "Allies",
+            "description": "<p>&nbsp;Tarawa was the first of a series of a battles in order to liberate the Gilbert and Mariana island chains. The battle was the first that the American Marines met significant resistance on the amphibious landings, before all the landings were met with no resistance worth mentioning.</p><br><p>&nbsp;The battle was a short one, but it was an important victory that would lead to several more in the coming months.</p>"
+        },
+        {
+            "image": "images/rome.jpg",
+            "battleName": "Battle of Monte Cassino and Rome",
+            "operationName": "Operation Avenger",
+            "casualtiesAxis": "20,000",
+            "casualtiesAllied": "55,000",
+            "dateBegan": "January 17 1944",
+            "dateEnded": "May 18 1944",
+            "victor": "Allies",
+            "description": "<p>&nbsp;The Battle of Cassino is what lead to the liberation of Rome. Little fighting actually occurred in the city of Rome, rather the battle was fought in Cassino.</p>><br><p>&nbsp;The main event of the battle happened on an abbey outside of the city on a hill build in the 6th century. The Germans were able to use the artillery extremely well, and the Allies suspected that the abbey was a place the Germans used to spot targets. The Allies marked if for destruction, and after weeks of fighting and bombing the abbey was destroyed.</p>><br><p>&nbsp;The battle was a bloody and difficult one, but after the abbey was destroyed the battle came to a rapid conclusion.</p>"
+        },
+        {
+            "image": "images/d-day.jpg",
+            "battleName": "D-Day",
+            "operationName": "Operation Overlord",
+            "casualtiesAxis": "9,000",
+            "casualtiesAllied": "10,000",
+            "dateBegan": "June 6 1944",
+            "dateEnded": "June 6 1944",
+            "victor": "Allies",
+            "description": "<p>&nbsp;D-Day was one of the most important battles for the Allies during World War II. It was the opening up of a second front to fight Hitler’s army on land. The battle was horrifically bloody. Everything that could have gone wrong with the invasion went wrong, and it's practically a miracle the invasion was a success at all.</p><br><p>&nbsp;The Allies intended the night before the invasion to bomb several bunkers on the beach heads, and to send in hundreds of paratroopers to secure vital bridges and similar targets behind enemy lines. However, it was a cloudy night, and almost all the bombs were off target, creating crates the German soldiers could use for defense. Furthermore, the paratroopers were almost all off target, and several took a long time to take the vital points assigned to them.</p><br><p>&nbsp;The morning of the invasion also had terrible weather, and the seas were very choppy, but the invasion had already been delayed, and the longer it was delayed the worse things looked for the Allies, so the invasion was launched. One of the beaches, Omaha, was particularly bloody because the transport with all the tanks was sunk, as a result the infantry had little armor to support them in the attack on the beach.</p><br><p>&nbsp;To make matters worse, there was a German armor division not far from the beach head, and if called to action would have likely been able to stop the attack. However, due to an idiotic order from Hitler, the tanks were not used, thus saving the Allies from sure defeat.</p><br><p>&nbsp; From this defeat the liberation of Paris and all of France was quickly achieved.</p>"
+        }
+    ],
+    "defeatOfAxis": [
+        {
+            "image": "",
+            "battleName" : "Liberation of Manila",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+
+        },
+        {
+            "image": "",
+            "battlename": "Operation Market Garden",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+        },
+        {
+            "image": "",
+            "battleName": "Battle of the Budge",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+        },
+        {
+            "image": "",
+            "battleName": "Battle of Königsberg",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+        },
+        {
+            "image": "",
+            "battleName": "Battle of Berlin",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+        },
+        {
+            "image": "",
+            "battleName": "Battle of Leyte",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+        },
+        {
+            "image": "",
+            "battleName": "Battle of Iwo Jima",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+        },
+        {
+            "image": "",
+            "battleName": "Battle of Okinawa",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+        },
+        {
+            "image": "",
+            "battleName": "Atomic Bombs",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+        },
+        {
+            "image": "",
+            "battleName": "Surrender of the Axis Powers",
+            "operationName": "",
+            "casualtiesAxis": "",
+            "casualtiesAllied": "",
+            "dateBegan": "",
+            "dateEnded": "",
+            "victor": "",
+            "description": ""
+        }
     ]
 }
