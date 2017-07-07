@@ -227,7 +227,74 @@ function turnOfTheTide(url){
 
     });
 }
+
+function alliedOffensive(url){
+    getJSON(url).then(function (data){
+        var alliesOffensive = data.alliedOffensive;
+        var rowNine = document.getElementById('ninth-row');
+        var rowTen = document.getElementById('tenth-row');
+        var rowEleven = document.getElementById('eleventh-row');
+        var rowTwelve = document.getElementById('twelth-row');
+        for(var i = 0; i < 3; i++){
+            var image3 = document.createElement('img');
+            image3.setAttribute('src', alliesOffensive[i].image);
+            var tableRowNine = document.createElement('td');
+            tableRowNine.appendChild(image3);
+            rowNine.appendChild(tableRowNine);
+        }
+        for(var i = 3; i < 6; i++){
+            var image4 = document.createElement('img');
+            image4.setAttribute('src', alliesOffensive[i].image);
+            var tableRowEleven = document.createElement('td');
+            tableRowEleven.appendChild(image4);
+            rowEleven.appendChild(tableRowEleven);
+        }
+        for(let i = 0; i < 3; i++){
+            var tableDataTen = document.createElement('td');
+            var anchor = document.createElement('a');
+            anchor.setAttribute('href', '#');
+            anchor.innerHTML = alliesOffensive[i].battleName;
+            tableDataTen.appendChild(anchor);
+            rowTen.appendChild(tableDataTen);
+            anchor.addEventListener('click', function(event){
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = alliesOffensive[i].operationName;
+                document.getElementById('axis-casualties').innerHTML = alliesOffensive[i].casualtiesAxis;
+                document.getElementById('allied-casualties').innerHTML = alliesOffensive[i].casualtiesAllied;;
+                document.getElementById('date-began').innerHTML = alliesOffensive[i].dateBegan;
+                document.getElementById('date-ended').innerHTML = alliesOffensive[i].dateEnded;
+                document.getElementById('victor').innerHTML = alliesOffensive[i].victor;
+                document.getElementById('battle-description').innerHTML = alliesOffensive[i].description;
+            });
+        }
+        for(let i = 3; i < 6; i++){
+            var tableDataTwelve = document.createElement('td');
+            var anchor = document.createElement('a');
+            anchor.setAttribute('href', '#');
+            anchor.innerHTML = alliesOffensive[i].battleName;
+            tableDataTwelve.appendChild(anchor);
+            rowTwelve.appendChild(tableDataTwelve);
+            anchor.addEventListener('click', function(event){
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = alliesOffensive[i].operationName;
+                document.getElementById('axis-casualties').innerHTML = alliesOffensive[i].casualtiesAxis;
+                document.getElementById('allied-casualties').innerHTML = alliesOffensive[i].casualtiesAllied;;
+                document.getElementById('date-began').innerHTML = alliesOffensive[i].dateBegan;
+                document.getElementById('date-ended').innerHTML = alliesOffensive[i].dateEnded;
+                document.getElementById('victor').innerHTML = alliesOffensive[i].victor;
+                document.getElementById('battle-description').innerHTML = alliesOffensive[i].description;
+            });
+        }
+    });
+}
 var url = "//samdaw13.github.io/project/info.json";
-window.onload = getPeople(url);
-window.onload = getEarlyVictories(url);
-window.onload = turnOfTheTide(url);
+getPeople(url);
+getEarlyVictories(url);
+turnOfTheTide(url);
+alliedOffensive(url);
+
+
+
+
