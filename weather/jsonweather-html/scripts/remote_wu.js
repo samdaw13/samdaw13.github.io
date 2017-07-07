@@ -1,10 +1,9 @@
 // Current Location Scripts
 (function () {
 
-    //var status = document.getElementById('status');
 
     (function getGeoLocation() {
-        //status.innerHTML = 'Getting Location...';
+
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
                 var lat = position.coords.latitude;
