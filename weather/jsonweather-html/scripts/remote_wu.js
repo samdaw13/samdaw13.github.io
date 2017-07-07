@@ -1,10 +1,10 @@
 // Current Location Scripts
 (function () {
 
-    var status = document.getElementById('status');
+    //var status = document.getElementById('status');
 
     (function getGeoLocation() {
-        status.innerHTML = 'Getting Location...';
+        //status.innerHTML = 'Getting Location...';
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
                 var lat = position.coords.latitude;
@@ -32,17 +32,17 @@
 
     // Get the data from the wunderground API
     function getData(lat, long) {
-        var url = "http://api.wunderground.com/api/5a47267e56a71868/conditions/q/" + lat + "," + long+ ".json";
+        var url = "//api.wunderground.com/api/5a47267e56a71868/conditions/q/" + lat + "," + long+ ".json";
         getJSON(url).then(function (data) {
             console.log(data);
 
             //add the code necessary here to update the page with all of the correct data points.
-            var cityDisplay = document.getElementById('cityDisplay');
+            var cityDisplay = document.getElementById('city-name');
             cityDisplay.innerHTML = data.current_observation.display_location.full;
 
             document.title =  data.current_observation.display_location.full + " | Weather Home";
 
-            var currentTempId = document.getElementById('currentTemp');
+            var currentTempId = document.getElementById('temperature');
 
             var currentTemp = data.current_observation.temp_f;
 
@@ -50,15 +50,15 @@
 
             currentTempId.innerHTML = roundedCurrentTemp + "&#176;";
 
-            document.getElementById('summary').innerHTML = data.current_observation.weather;
+            document.getElementById('sunny').innerHTML = data.current_observation.weather;
 
 
-            document.getElementById('add1').innerHTML = "Feels like: " + data.current_observation.feelslike_string;
-            document.getElementById('add2').innerHTML = "Humidty level: " + data.current_observation.relative_humidity;
+            document.getElementById('add1').innerHTML = data.current_observation.feelslike_string;
+            document.getElementById('add2').innerHTML = data.current_observation.relative_humidity;
 
             document.getElementById('add3').innerHTML = "Wind direction and Speed: " + data.current_observation.wind_string;
             //this line will cause the Loading message to fade away.
-            document.getElementById("cover").classList.add('fadeout');
+           // document.getElementById("cover").classList.add('fadeout');
 
         });
 

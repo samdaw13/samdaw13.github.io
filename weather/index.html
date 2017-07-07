@@ -6,48 +6,58 @@
         <title>Weather Home</title>
         <meta name="viewport" content="width=device-width">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <link rel="stylesheet" href="/weather/jsonweather-html/css/weather-style.css" type="text/css" media="screen">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
-        <div id="wrapper">
-            <header id="page-header">
-                <h1>Weather Center</h1>
-                <h2 class="tagline">Know your weather</h2>
-            </header>
-            <nav id="page-nav">
-                <ul class="flexlist">
-                    <li><a href="//jsonweather-html/" title="Weather Center Current Location">Current</a></li>
-                    <li><a href="//samdaw13.github.io/weather/franklin-wireframe.html" title="Weather in Franklin, ID">Franklin</a></li>
-                    <li><a href="//samdaw13.github.io/weather/greenville.html" title="Weather in Greenville, SC">Greenville</a></li>
-                    <li><a href="/jsonweather-html/views/springfield.html" title="Weather in Springfield, IL">Springfield</a></li>
+        <header>
+            <div id="logoDiv">
+                <h1 id="logo"><span id="dice">&#9856;</span><span id=rotated-die>&#9861;</span>Feeling Lucky?</h1>
+                <h3 id="local-weather">Local Weather</h3>
+            </div>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#" class="nav-bar-link">Home</a></li>
+                    <li><a href="#" class="nav-bar-link">Franklin</a></li>
+                    <li><a href="//samdaw13.github.io/weather/greenville.html" class="nav-bar-link">Greenville</a></li>
+                    <li><a href="#" class="nav-bar-link">Springfield</a></li>
+                    <li><a href="#" class="nav-bar-link">Search</a></li>
                 </ul>
             </nav>
-            <main id="page-main">
-                <section class="weather-container">
-                    <div id="cover">
-                        <div id="status">Loading...</div>
-                    </div>
-                    <h1 id="cityDisplay"></h1>
-                    <h2>Current Conditions</h2>
-                    <ul id="current_conditions">
-                        <li id="currentTemp"></li>
-                        <li id="summary"></li>
-                        <li id="add1"></li>
-                        <li id="add2"></li>
-                        <li id="add3"></li>
-                    </ul>
-                </section>
-            </main>
-            <footer id="page-footer">
-                <div id="footer-content">
-                    <ul class="flexlist">
-                        <li>Weather Center 2010 - <?php echo date('Y');  ?></li>
-                        <li><img src="images/wulogo_rev.png" alt="Weatherunderground logo" title="All weather data provided by WeatherUnderground.com"></li>
-                    </ul>
+        </header>
+        <main>
+            <div id="weatherWhereYouAre">
+                <h2 id="city-name"></h2>
+                <div id="temerature">
+                    <h2 id="temperature"></h2>
+                    <h2 id="temperature"></h2>
+                    <p id="temp"><span id="sun"></span></p>
                 </div>
-                <small>Last updated: </small>
-            </footer>
+                <div id="sunny" class="hidden">
+                    <p></p>
+                </div>
+            </div>
+
+            <div id="currentConditions">
+                <h2><span>&#9858;</span> Current Conditions</h2>
+                <div id="weather">
+                    <dl>
+                        <dt>Feels like: </dt>
+                        <dd id="add1"></dd>
+                        <dt>Humidity: </dt>
+                        <dd id="add2"></dd>
+                        <dt>Wind direction and Speed: </dt>
+                        <dd id="add3"></dd>
+                    </dl>
+                </div>
+
+            </div>
+
+        </main>
+        <footer>
+            <span id="copyright">&copy;2017 Sam Daw</span>
+            <a href="https://samdaw13.github.io/" id="link-to-home">Link to Homepage</a>
+        </footer>
         <script src="/weather/jsonweather-html/scripts/remote_wu.js"></script>
     </body>
 </html>
