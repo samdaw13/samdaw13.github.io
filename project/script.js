@@ -310,6 +310,44 @@ function defeatOfAxis(url){
             tableRowFifteen.appendChild(image6);
             rowFifteen.appendChild(tableRowFifteen);
         }
+        for(var i = 0; i < 4; i++){
+            var tableDataFourteen = document.createElement('td');
+            var anchor = document.createElement('a');
+            anchor.setAttribute('href', '#');
+            anchor.innerHTML = axisDefeat[i].battleName;
+            tableDataFourteen.appendChild(anchor);
+            rowFourteen.appendChild(tableDataFourteen);
+            anchor.addEventListener('click', function(event){
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = axisDefeat[i].operationName;
+                document.getElementById('axis-casualties').innerHTML = axisDefeat[i].casualtiesAxis;
+                document.getElementById('allied-casualties').innerHTML = axisDefeat[i].casualtiesAllied;;
+                document.getElementById('date-began').innerHTML = axisDefeat[i].dateBegan;
+                document.getElementById('date-ended').innerHTML = axisDefeat[i].dateEnded;
+                document.getElementById('victor').innerHTML = axisDefeat[i].victor;
+                document.getElementById('battle-description').innerHTML = axisDefeat[i].description;
+            });
+        }
+        for(var i = 4; i < 8; i++){
+            var tableDataSixteen = document.createElement('td');
+            var anchor = document.createElement('a');
+            anchor.setAttribute('href', '#');
+            anchor.innerHTML = axisDefeat[i].battleName;
+            tableDataSixteen.appendChild(anchor);
+            rowSixteen.appendChild(tableDataSixteen);
+            anchor.addEventListener('click', function(event){
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = axisDefeat[i].operationName;
+                document.getElementById('axis-casualties').innerHTML = axisDefeat[i].casualtiesAxis;
+                document.getElementById('allied-casualties').innerHTML = axisDefeat[i].casualtiesAllied;;
+                document.getElementById('date-began').innerHTML = axisDefeat[i].dateBegan;
+                document.getElementById('date-ended').innerHTML = axisDefeat[i].dateEnded;
+                document.getElementById('victor').innerHTML = axisDefeat[i].victor;
+                document.getElementById('battle-description').innerHTML = axisDefeat[i].description;
+            });
+        }
     });
 }
 var url = "//samdaw13.github.io/project/info.json";

@@ -294,7 +294,7 @@
         },
         {
             "image": "images/market-garden.jpg",
-            "battlename": "Operation Market Garden",
+            "battleName": "Operation Market Garden",
             "operationName": "Operation Market Garden",
             "casualtiesAxis": "13,000",
             "casualtiesAllied": "17,200",
