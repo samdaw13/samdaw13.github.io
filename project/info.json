@@ -43,7 +43,6 @@
     "earlyAxisVictories": [
         {
             "image": "images/german-tanks-poland.jpg",
-            "image2": "images/polish-cavalry.jpg",
             "battleName": "The Partitioning of Poland",
             "operationName": "Operation  Himmler",
             "casualtiesAxis": "59,000",
@@ -55,7 +54,6 @@
         },
         {
             "image": "images/german-tank-norway.jpg",
-            "image2": "images/germans-invade-denmark.jpg",
             "battleName": "Conquest of Scandiavia",
             "operationName": "Weserubung",
             "casualtiesAxis": "5,318",
@@ -67,7 +65,6 @@
         },
         {
             "image": "images/hitler-eiffle-tower.jpg",
-            "image2": "images/germains-invade-paris.jpg",
             "battleName": "Fall of Western Europe",
             "operationName": "Case Red",
             "casualtiesAxis": "163,676",
@@ -79,7 +76,6 @@
         },
         {
             "image": "images/dunkir.jpg",
-            "image2": "images/dunkirk-evacuation.jpg",
             "battleName": "Miracle of Dunkirk",
             "operationName": "Operation Dynamo",
             "casualtiesAxis": "20,000",
@@ -91,7 +87,6 @@
         },
         {
             "image": "images/battle-of-britain-st-paul.jpg",
-            "image2": "images/battle-of-britain0german-bombers.jpg",
             "battleName": "The Battle of Britain",
             "operationName": "Operation Sealion",
             "casualtiesAxis": "4,245",
@@ -104,7 +99,6 @@
         },
         {
             "image": "images/pearl-harbor.jpg",
-            "image2": "images/pearl-harbor-2.jpg",
             "battleName": "Attack on Pearl Harbor",
             "operationName": "Operation K",
             "casualtiesAxis": "65",
@@ -289,7 +283,7 @@
             "dateBegan": "February 3 1945",
             "dateEnded": "March 3 1945",
             "victor": "Allies",
-            "description": "<p>&nbsp;"
+            "description": "<p>&nbsp;The Battle of Manila was an important one, because its outcome determined the fate of the strategically located Philippine islands. Furthermore, it was the only major city the Japanese and American forces fought in. It is estimated that the most destroyed city, not counting Hiroshima and Nagasaki, in the war was Berlin, second was Stalingrad, and third was Manila.</p><br><p>&nbsp;The battle was terrible, and lasted a month, but after the struggle the Americans emerged victorious. During the battle the Japanese murdered hundreds of locals, destroyed local architectural and cultural heritage dating to the founding of the city.</p>"
 
         },
         {
@@ -301,7 +295,7 @@
             "dateBegan": "September 17 1945",
             "dateEnded": "September 25 1945",
             "victor": "Germany",
-            "description": ""
+            "description": "<p>&nbsp;To say Germany was victorious in this battle is a bit of a stretch, it was more just a failed operation on the Allies part. The operation was the largest airborne operation up to that point. The goal was to surround the Ruhr valley, the center of German Industry, thus crippling Germany's ability to produce weapons.</p><br><p>&nbsp;However, as the operation began, the Germans blew up several critical bridges, forcing the main Allied army to slow down, and arrive late, giving time for a German armor division in the area to mop up most of the Allied paratroopers, thus ending the operation.</p>"
         },
         {
             "image": "images/battle-of-the-buldge.jpg",
@@ -312,7 +306,7 @@
             "dateBegan": "December 16 1945",
             "dateEnded": "January 5 1945",
             "victor": "Allies",
-            "description": ""
+            "description": "<p>&nbsp;This was the last major offensive launched by the Germans during World War II. Hitler scraped the barrel to assemble the needed tanks, artillery, and oil to fuel the assault, largely at the expense of the defensive Siegfried line to the west, and reinforcements bound for the eastern front. The goal of the operation was to destroy the port of Antwerp, the main port where Allies supplies was coming through. If this port was destroyed, the nearest port after was located in far west France in a town called Brest.</p><br><p>&nbsp;The Germans had long lost air superiority in Europe, and knew that if an attack was made with clear skies, it would be a disaster, so Hitler purposely choose a time when there would be terrible storms as to render the Allied aircraft useless. Furthermore, Hitler choose the weakest point in the Allied front to penetrate, the same point he sent his army through to invade France in 1940, the Ardennes forest.</p><br><p>&nbsp;Initially things went well for the Germans, until the German army reached a critical town called Bastogne, a critical junction that the Germans needed to capture. The American forces in the city refused to give up, and fought bravely, until they were relieved by General Patton and the Third Army. Once the town was relieved, the Germans had no chance of achieving their objective, and had to retreat, loosing most of their artillery and tanks in the process, leading the complete collapse of the western front.</p>"
         },
         {
             "image": "images/konigsberg.jpg",
@@ -323,7 +317,7 @@
             "dateBegan": "April 6 1945",
             "dateEnded": "April 9 1945",
             "victor": "Soviet Union",
-            "description": ""
+            "description": "<p>&nbsp;Strategically speaking, the city of Königsberg was critical, as the forces in the city could easily flank the Soviet forces, therefore it was necessary to seize the city. Hitler ordered the city to be held to the last, and expected the city to deal a great deal of harm to the Soviet armies. Because since Kursk, the Germans had almost been in full retreat, and Hitler expected this little force to halt the massive Soviet army.</p><br><p>&nbsp;However, the attack was an amazing success for the Soviets, due to the amazingly small amount of casualties sustained in the battle. Hitler was furious that they didn't fight harder, but little could have been done. This opened up the front for the Soviets to push further into Germany, and on to Berlin.</p>"
         },
         {
             "image": "images/berlin.jpg",
@@ -334,7 +328,7 @@
             "dateBegan": "April 16 1945",
             "dateEnded": "May 2 1945",
             "victor": "Soviet Union",
-            "description": ""
+            "description": "<p>&nbsp;Berlin was quickly surrounded, and cut off from the rest of what was left to the Nazi empire. With Hitler in the center of the city in his Fuhrer bunker losing his mind, commanding armies that had ceased to exist some time ago, refused to give up the city. Most of the regular German soldier had been captured or killed at that point, so the Germans were forced to conscript old men, and young boys to fight and die for Hitler.</p><br><p>&nbsp;The fighting was terrible, the Germans fought to the last bullet, and often would kill themselves with their last bullet. The Soviets suffered heavy casualties in taking the city, but the Germans refused to give up, so taken they were by Hitler that they believed that he could somehow save them from this terrible situation, and still win the war. But the war was lost, and had been for months.</p><br><p>&nbsp;Hitler and many in his inner circle committed suicide, and the Germans surrendered shortly after this happened. The war in Europe was over, but Japan was still fighting in the Pacific.</p>"
         },
         {
             "image": "images/iwo-jima2.jpg",
@@ -345,7 +339,7 @@
             "dateBegan": "February 19 1945",
             "dateEnded": "March 26 1945",
             "victor": "Allies",
-            "description": ""
+            "description": "<p>&nbsp;The first time that Japanese homeland had been invaded in a thousand years was Iwo Jima during World War II, and the Japanese, feeling the land was sacred, would not give up easily. The Japanese had dug intricate tunnels to defend the island from, making the invasion very difficult. The goal of this battle was to capture several air fields on the island to use to bomb the main land of Japan. However, during the fighting the airfields had been so severely damaged that they became virtually useless except for emergency landings.</p><br><p>&nbsp;This battle was unique, because American casualties were higher that Japanese, which goes to show just how hard the fighting was for the Americans. Eventually the island was taken, after the fall of Mt. Suribachi, were most of the Japanese artillery was, and from there the artillery was able to accurately hit targets.</p>"
         },
         {
             "image": "images/okinawa.jpg",
@@ -356,18 +350,18 @@
             "dateBegan": "April 1 1945",
             "dateEnded": "June 22 1945",
             "victor": "Allies",
-            "description": ""
+            "description": "<p>&nbsp;Unlike Iwo Jima, the importance of this island exceeded that of just taking airstrips from the Japanese, the plan was to use Okinawa as a staging point to invade the Japanese mainland. The island is part of the Japanese homeland, and like Iwo Jima, the fighting was very intense. It was during this battle that Germany surrendered to the Allies. However, the fighting raged on in the Pacific.</p><br><p>&nbsp;The battle was referred to as the 'typhoon of steel' in reference to all the kamikaze attacks from the Japanese. After the battle, it was discovered that almost half of the 300,000 civilians living on the island had died or committed suicide, out of fear of the Americans, which Japanese propaganda had distorted the Americans into monsters. This battle was the last major battle in the pacific between Japan and America.</p>"
         },
         {
             "image": "images/hiroshima.jpg",
             "battleName": "Atomic Bombs",
-            "operationName": "",
+            "operationName": "Ending the War",
             "casualtiesAxis": "226,000",
             "casualtiesAllied": "20",
             "dateBegan": "August 6 1945",
             "dateEnded": "August 9 1945",
             "victor": "Allies",
-            "description": ""
+            "description": "<p>&nbsp;The Allies needed Japan to surrender, but their military code would not allow the Japanese to ever surrender in war. The Allies began to make grim preparations for the invasion of Japan, knowing how after the battles of Iwo Jima and Okinawa it would be a blood bath. It is estimated that there would have been over one million American casualties alone if the invasion occurred. A new weapon had been recently developed, the atomic bomb, capable of destroying an entire city. There were only two in the American arsenal.</p><br><p>&nbsp;The first city to be destroyed was Hiroshima, and the Americans demanded the surrender of the Japanese, or they would use the weapon again. The Japanese refused, so the city of Nagasaki was also destroyed. Shortly after this the Japanese finally gave up and surrendered to the Allies, ending World War II.</p>"
         }
     ]
 }

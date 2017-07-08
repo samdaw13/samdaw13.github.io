@@ -99,8 +99,6 @@ function getEarlyVictories(url) {
 
                 document.getElementById('victor').innerHTML = earlyBattles[i].victor;
 
-                document.getElementById('image').innerHTML = earlyBattles[i].image2;
-
                 document.getElementById('battle-description').innerHTML = earlyBattles[i].description;
             });
 
@@ -129,8 +127,6 @@ function getEarlyVictories(url) {
                 document.getElementById('date-ended').innerHTML = earlyBattles[i].dateEnded
 
                 document.getElementById('victor').innerHTML = earlyBattles[i].victor;
-
-                document.getElementById('image').innerHTML = earlyBattles[i].image2;
 
                 document.getElementById('battle-description').innerHTML = earlyBattles[i].description;
             });
@@ -310,7 +306,7 @@ function defeatOfAxis(url){
             tableRowFifteen.appendChild(image6);
             rowFifteen.appendChild(tableRowFifteen);
         }
-        for(var i = 0; i < 4; i++){
+        for(let i = 0; i < 4; i++){
             var tableDataFourteen = document.createElement('td');
             var anchor = document.createElement('a');
             anchor.setAttribute('href', '#');
@@ -329,7 +325,7 @@ function defeatOfAxis(url){
                 document.getElementById('battle-description').innerHTML = axisDefeat[i].description;
             });
         }
-        for(var i = 4; i < 8; i++){
+        for(let i = 4; i < 8; i++){
             var tableDataSixteen = document.createElement('td');
             var anchor = document.createElement('a');
             anchor.setAttribute('href', '#');
