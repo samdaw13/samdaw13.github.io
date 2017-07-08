@@ -289,11 +289,35 @@ function alliedOffensive(url){
         }
     });
 }
+function defeatOfAxis(url){
+    getJSON(url).then(function (data){
+        var axisDefeat = data.defeatOfAxis;
+        var rowThirteen = document.getElementById('thirteenth-row');
+        var rowFourteen = document.getElementById('fourteenth-row');
+        var rowFifteen = document.getElementById('fifteenth-row');
+        var rowSixteen = document.getElementById('sixteenth-row');
+        for(var i = 0; i < 4; i++){
+            var image5 = document.createElement('img');
+            image5.setAttribute('src', axisDefeat[i].image);
+            var tableRowThirteen = document.createElement('td');
+            tableRowThirteen.appendChild(image5);
+            rowThirteen.appendChild(tableRowThirteen);
+        }
+        for(var i = 4; i < 8; i++){
+            var image6 = document.createElement('img');
+            image6.setAttribute('src', axisDefeat[i].image);
+            var tableRowFifteen = document.createElement('td');
+            tableRowFifteen.appendChild(image6);
+            rowFifteen.appendChild(tableRowFifteen);
+        }
+    });
+}
 var url = "//samdaw13.github.io/project/info.json";
 getPeople(url);
 getEarlyVictories(url);
 turnOfTheTide(url);
 alliedOffensive(url);
+defeatOfAxis(url);
 
 
 
