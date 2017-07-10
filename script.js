@@ -346,7 +346,7 @@ function defeatOfAxis(url){
         }
     });
 }
-var url = "//samdaw13.github.io/project/info.json";
+var url = "//samdaw13.github.io/info.json";
 getPeople(url);
 getEarlyVictories(url);
 turnOfTheTide(url);
