@@ -14,5 +14,5 @@ function getInfo(url){
         document.getElementById('temp').innerHTML = franklin.High;
     });
 }
-var url = "//samdaw13.github.io/weather.json"
+var url = "//samdaw13.github.io/homework/weather.json"
 getInfo(url);
