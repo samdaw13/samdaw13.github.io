@@ -92,6 +92,7 @@ function getEarlyVictories(url) {
 
                event.preventDefault();
                document.getElementById('information').style.display = 'block';
+               document.getElementById('operation-name').innerHTML = earlyBattles[i].operationName;
                document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
 
                document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
@@ -119,6 +120,7 @@ function getEarlyVictories(url) {
 
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = earlyBattles[i].operationName;
                 document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
 
                 document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
@@ -148,6 +150,7 @@ function getEarlyVictories(url) {
 
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = earlyBattles[i].operationName;
                 document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
 
                 document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
@@ -177,6 +180,7 @@ function getEarlyVictories(url) {
 
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = earlyBattles[i].operationName;
                 document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
 
                 document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
@@ -216,6 +220,7 @@ function turnOfTheTide(url){
 
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = turnOfTheTideBattles[i].operationName;
                 document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
 
                 document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
@@ -245,6 +250,7 @@ function turnOfTheTide(url){
 
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = turnOfTheTideBattles[i].operationName;
                 document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
 
                 document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
@@ -276,6 +282,7 @@ function turnOfTheTide(url){
 
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = turnOfTheTideBattles[i].operationName;
                 document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
 
                 document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
@@ -307,6 +314,7 @@ function turnOfTheTide(url){
 
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = turnOfTheTideBattles[i].operationName;
                 document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
 
                 document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
