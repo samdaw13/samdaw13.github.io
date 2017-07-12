@@ -56,7 +56,6 @@ function getEarlyVictories(url) {
     getJSON(url).then(function (data) {
         var earlyBattles = data.earlyAxisVictories;
         var rowOne = document.getElementById('first-row');
-        document.getElementById('second-row').innerHTML = "";
         var rowTwo = document.getElementById('second-row');
         var rowThree = document.getElementById('third-row');
         var rowFour = document.getElementById('fourth-row');
