@@ -1,4 +1,5 @@
 "use strict";
+const url = "//samdaw13.github.io/info.json";
 function getJSON(url) {
     return fetch(url)
         .then(function (response) {
@@ -16,14 +17,31 @@ function getPeople(url) {
 
         var firstRow = document.getElementById('row-one');
         var secondRow = document.getElementById('row-two');
+
         dictators.forEach(function (person) {
             var tableData = document.createElement('td');
             var image = document.createElement('img');
+            var anchor = document.createElement('a');
+            anchor.setAttribute('href', '#');
             image.setAttribute('src', person.image);
-
-            tableData.appendChild(image);
+            anchor.appendChild(image);
+            tableData.appendChild(anchor);
             firstRow.appendChild(tableData);
+            anchor.addEventListener('click', function (event) {
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
 
+                document.getElementById('nickname').innerHTML = person.nickname;
+
+                document.getElementById('birthdate').innerHTML = person.birthdate;
+
+                document.getElementById('birthplace').innerHTML = person.birthplace;
+
+                document.getElementById('deathdate').innerHTML = person.deathdate;
+
+                document.getElementById('rise-to-power').innerHTML = person.risetopower;
+
+            });
 
         });
         dictators.forEach(function (person) {
@@ -61,19 +79,59 @@ function getEarlyVictories(url) {
         var rowTwo = document.getElementById('second-row');
         var rowThree = document.getElementById('third-row');
         var rowFour = document.getElementById('fourth-row');
-       for(var i = 0; i < 3; i++){
+       for(let i = 0; i < 3; i++){
            var image = document.createElement('img');
            image.setAttribute('src', earlyBattles[i].image);
            var tableRowOne = document.createElement('td');
-           tableRowOne.appendChild(image);
+           var anchor = document.createElement('a');
+           anchor.setAttribute("href", "#");
+           anchor.appendChild(image);
+           tableRowOne.appendChild(anchor);
            rowOne.appendChild(tableRowOne);
+           anchor.addEventListener('click', function (event) {
+
+               event.preventDefault();
+               document.getElementById('information').style.display = 'block';
+               document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
+
+               document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
+
+               document.getElementById('date-began').innerHTML = earlyBattles[i].dateBegan
+
+               document.getElementById('date-ended').innerHTML = earlyBattles[i].dateEnded
+
+               document.getElementById('victor').innerHTML = earlyBattles[i].victor;
+
+               document.getElementById('battle-description').innerHTML = earlyBattles[i].description;
+           });
+
        }
-        for(var i = 3; i < 6; i++){
+        for(let i = 3; i < 6; i++){
             var image2 = document.createElement('img');
             image2.setAttribute('src', earlyBattles[i].image);
             var tableRowThree = document.createElement('td');
-            tableRowThree.appendChild(image2);
+            var anchor1 = document.createElement('a');
+            anchor1.setAttribute('href', '#');
+            anchor1.appendChild(image2);
+            tableRowThree.appendChild(anchor1);
             rowThree.appendChild(tableRowThree);
+            anchor1.addEventListener('click', function (event) {
+
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
+
+                document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
+
+                document.getElementById('date-began').innerHTML = earlyBattles[i].dateBegan
+
+                document.getElementById('date-ended').innerHTML = earlyBattles[i].dateEnded
+
+                document.getElementById('victor').innerHTML = earlyBattles[i].victor;
+
+                document.getElementById('battle-description').innerHTML = earlyBattles[i].description;
+            });
+
         }
         for(let i = 0; i < 3; i++){
 
@@ -145,19 +203,62 @@ function turnOfTheTide(url){
         var rowSix = document.getElementById('sixth-row');
         var rowSeven = document.getElementById('seventh-row');
         var rowEight = document.getElementById('eigth-row');
-        for(var i = 0; i < 4; i++){
+        for(let i = 0; i < 4; i++){
             var image = document.createElement('img');
             image.setAttribute('src', turnOfTheTideBattles[i].image);
             var tableRowFive = document.createElement('td');
-            rowFive.appendChild(tableRowFive); tableRowFive.appendChild(image);
+            var anchor = document.createElement('a');
+            anchor.setAttribute('href', '#');
+            anchor.appendChild(image);
+            tableRowFive.appendChild(anchor);
+            rowFive.appendChild(tableRowFive);
+            anchor.addEventListener('click', function (event) {
+
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
+
+                document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
+
+                document.getElementById('date-began').innerHTML = turnOfTheTideBattles[i].dateBegan
+
+                document.getElementById('date-ended').innerHTML = turnOfTheTideBattles[i].dateEnded
+
+                document.getElementById('victor').innerHTML = turnOfTheTideBattles[i].victor;
+
+
+
+                document.getElementById('battle-description').innerHTML = turnOfTheTideBattles[i].description;
+            });
 
         }
-        for(var i = 4; i < 8; i++){
+        for(let i = 4; i < 8; i++){
             var image2 = document.createElement('img');
             image2.setAttribute('src', turnOfTheTideBattles[i].image);
             var tableRowSeven = document.createElement('td');
-            tableRowSeven.appendChild(image2);
+            var anchor3 = document.createElement('a');
+            anchor3.setAttribute('href', '#');
+            anchor3.appendChild(image2);
+            tableRowSeven.appendChild(anchor3);
             rowSeven.appendChild(tableRowSeven);
+            anchor3.addEventListener('click', function (event) {
+
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
+
+                document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
+
+                document.getElementById('date-began').innerHTML = turnOfTheTideBattles[i].dateBegan
+
+                document.getElementById('date-ended').innerHTML = turnOfTheTideBattles[i].dateEnded
+
+                document.getElementById('victor').innerHTML = turnOfTheTideBattles[i].victor;
+
+
+
+                document.getElementById('battle-description').innerHTML = turnOfTheTideBattles[i].description;
+            });
         }
         for(let i = 0; i < 4; i++){
 
@@ -234,19 +335,47 @@ function alliedOffensive(url){
         var rowTen = document.getElementById('tenth-row');
         var rowEleven = document.getElementById('eleventh-row');
         var rowTwelve = document.getElementById('twelth-row');
-        for(var i = 0; i < 3; i++){
+        for(let i = 0; i < 3; i++){
             var image3 = document.createElement('img');
             image3.setAttribute('src', alliesOffensive[i].image);
             var tableRowNine = document.createElement('td');
-            tableRowNine.appendChild(image3);
+            var anchor2 = document.createElement('a');
+            anchor2.setAttribute('href', '#');
+            anchor2.appendChild(image3);
+            tableRowNine.appendChild(anchor2);
             rowNine.appendChild(tableRowNine);
+            anchor2.addEventListener('click', function(event){
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = alliesOffensive[i].operationName;
+                document.getElementById('axis-casualties').innerHTML = alliesOffensive[i].casualtiesAxis;
+                document.getElementById('allied-casualties').innerHTML = alliesOffensive[i].casualtiesAllied;;
+                document.getElementById('date-began').innerHTML = alliesOffensive[i].dateBegan;
+                document.getElementById('date-ended').innerHTML = alliesOffensive[i].dateEnded;
+                document.getElementById('victor').innerHTML = alliesOffensive[i].victor;
+                document.getElementById('battle-description').innerHTML = alliesOffensive[i].description;
+            });
         }
-        for(var i = 3; i < 6; i++){
+        for(let i = 3; i < 6; i++){
             var image4 = document.createElement('img');
             image4.setAttribute('src', alliesOffensive[i].image);
             var tableRowEleven = document.createElement('td');
-            tableRowEleven.appendChild(image4);
+            var anchor3 = document.createElement('a');
+            anchor3.setAttribute('href', '#');
+            anchor3.appendChild(image4);
+            tableRowEleven.appendChild(anchor3);
             rowEleven.appendChild(tableRowEleven);
+            anchor3.addEventListener('click', function(event){
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = alliesOffensive[i].operationName;
+                document.getElementById('axis-casualties').innerHTML = alliesOffensive[i].casualtiesAxis;
+                document.getElementById('allied-casualties').innerHTML = alliesOffensive[i].casualtiesAllied;;
+                document.getElementById('date-began').innerHTML = alliesOffensive[i].dateBegan;
+                document.getElementById('date-ended').innerHTML = alliesOffensive[i].dateEnded;
+                document.getElementById('victor').innerHTML = alliesOffensive[i].victor;
+                document.getElementById('battle-description').innerHTML = alliesOffensive[i].description;
+            });
         }
         for(let i = 0; i < 3; i++){
             var tableDataTen = document.createElement('td');
@@ -269,12 +398,12 @@ function alliedOffensive(url){
         }
         for(let i = 3; i < 6; i++){
             var tableDataTwelve = document.createElement('td');
-            var anchor = document.createElement('a');
-            anchor.setAttribute('href', '#');
-            anchor.innerHTML = alliesOffensive[i].battleName;
-            tableDataTwelve.appendChild(anchor);
+            var anchor1 = document.createElement('a');
+            anchor1.setAttribute('href', '#');
+            anchor1.innerHTML = alliesOffensive[i].battleName;
+            tableDataTwelve.appendChild(anchor1);
             rowTwelve.appendChild(tableDataTwelve);
-            anchor.addEventListener('click', function(event){
+            anchor1.addEventListener('click', function(event){
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
                 document.getElementById('operation-name').innerHTML = alliesOffensive[i].operationName;
@@ -296,19 +425,47 @@ function defeatOfAxis(url){
         var rowFourteen = document.getElementById('fourteenth-row');
         var rowFifteen = document.getElementById('fifteenth-row');
         var rowSixteen = document.getElementById('sixteenth-row');
-        for(var i = 0; i < 4; i++){
+        for(let i = 0; i < 4; i++){
             var image5 = document.createElement('img');
             image5.setAttribute('src', axisDefeat[i].image);
             var tableRowThirteen = document.createElement('td');
-            tableRowThirteen.appendChild(image5);
+            var anchor2 = document.createElement('a');
+            anchor2.setAttribute('href', '#');
+            anchor2.appendChild(image5);
+            tableRowThirteen.appendChild(anchor2);
             rowThirteen.appendChild(tableRowThirteen);
+            anchor2.addEventListener('click', function(event){
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = axisDefeat[i].operationName;
+                document.getElementById('axis-casualties').innerHTML = axisDefeat[i].casualtiesAxis;
+                document.getElementById('allied-casualties').innerHTML = axisDefeat[i].casualtiesAllied;;
+                document.getElementById('date-began').innerHTML = axisDefeat[i].dateBegan;
+                document.getElementById('date-ended').innerHTML = axisDefeat[i].dateEnded;
+                document.getElementById('victor').innerHTML = axisDefeat[i].victor;
+                document.getElementById('battle-description').innerHTML = axisDefeat[i].description;
+            });
         }
-        for(var i = 4; i < 8; i++){
+        for(let i = 4; i < 8; i++){
             var image6 = document.createElement('img');
             image6.setAttribute('src', axisDefeat[i].image);
             var tableRowFifteen = document.createElement('td');
-            tableRowFifteen.appendChild(image6);
+            var anchor3 = document.createElement('a');
+            anchor3.setAttribute('href', '#');
+            anchor3.appendChild(image6);
+            tableRowFifteen.appendChild(anchor3);
             rowFifteen.appendChild(tableRowFifteen);
+            anchor3.addEventListener('click', function(event){
+                event.preventDefault();
+                document.getElementById('information').style.display = 'block';
+                document.getElementById('operation-name').innerHTML = axisDefeat[i].operationName;
+                document.getElementById('axis-casualties').innerHTML = axisDefeat[i].casualtiesAxis;
+                document.getElementById('allied-casualties').innerHTML = axisDefeat[i].casualtiesAllied;;
+                document.getElementById('date-began').innerHTML = axisDefeat[i].dateBegan;
+                document.getElementById('date-ended').innerHTML = axisDefeat[i].dateEnded;
+                document.getElementById('victor').innerHTML = axisDefeat[i].victor;
+                document.getElementById('battle-description').innerHTML = axisDefeat[i].description;
+            });
         }
         for(let i = 0; i < 4; i++){
             var tableDataFourteen = document.createElement('td');
@@ -331,12 +488,12 @@ function defeatOfAxis(url){
         }
         for(let i = 4; i < 8; i++){
             var tableDataSixteen = document.createElement('td');
-            var anchor = document.createElement('a');
-            anchor.setAttribute('href', '#');
-            anchor.innerHTML = axisDefeat[i].battleName;
+            var anchor1 = document.createElement('a');
+            anchor1.setAttribute('href', '#');
+            anchor1.innerHTML = axisDefeat[i].battleName;
             tableDataSixteen.appendChild(anchor);
             rowSixteen.appendChild(tableDataSixteen);
-            anchor.addEventListener('click', function(event){
+            anchor1.addEventListener('click', function(event){
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
                 document.getElementById('operation-name').innerHTML = axisDefeat[i].operationName;
@@ -350,7 +507,7 @@ function defeatOfAxis(url){
         }
     });
 }
-var url = "//samdaw13.github.io/info.json";
+
 
 
 
