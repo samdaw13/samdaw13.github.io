@@ -491,7 +491,7 @@ function defeatOfAxis(url){
             var anchor1 = document.createElement('a');
             anchor1.setAttribute('href', '#');
             anchor1.innerHTML = axisDefeat[i].battleName;
-            tableDataSixteen.appendChild(anchor);
+            tableDataSixteen.appendChild(anchor1);
             rowSixteen.appendChild(tableDataSixteen);
             anchor1.addEventListener('click', function(event){
                 event.preventDefault();
