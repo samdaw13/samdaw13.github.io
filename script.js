@@ -347,11 +347,11 @@ function defeatOfAxis(url){
     });
 }
 var url = "//samdaw13.github.io/info.json";
-getPeople(url);
-getEarlyVictories(url);
-turnOfTheTide(url);
-alliedOffensive(url);
-defeatOfAxis(url);
+
+
+
+
+
 
 
 
