@@ -11,6 +11,7 @@ function getJSON(url) {
 
 function getPeople(url) {
     getJSON(url).then(function (data) {
+        console.log(data);
         var dictators = data.people;
 
         var firstRow = document.getElementById('row-one');
@@ -54,6 +55,7 @@ function getPeople(url) {
 
 function getEarlyVictories(url) {
     getJSON(url).then(function (data) {
+        console.log(data);
         var earlyBattles = data.earlyAxisVictories;
         var rowOne = document.getElementById('first-row');
         var rowTwo = document.getElementById('second-row');
@@ -137,6 +139,7 @@ function getEarlyVictories(url) {
 }
 function turnOfTheTide(url){
     getJSON(url).then(function (data) {
+        console.log(data);
         var turnOfTheTideBattles = data.turnOfTheTide;
         var rowFive = document.getElementById('fifth-row');
         var rowSix = document.getElementById('sixth-row');
@@ -225,6 +228,7 @@ function turnOfTheTide(url){
 
 function alliedOffensive(url){
     getJSON(url).then(function (data){
+        console.log(data);
         var alliesOffensive = data.alliedOffensive;
         var rowNine = document.getElementById('ninth-row');
         var rowTen = document.getElementById('tenth-row');
@@ -286,6 +290,7 @@ function alliedOffensive(url){
 }
 function defeatOfAxis(url){
     getJSON(url).then(function (data){
+        console.log(data);
         var axisDefeat = data.defeatOfAxis;
         var rowThirteen = document.getElementById('thirteenth-row');
         var rowFourteen = document.getElementById('fourteenth-row');
