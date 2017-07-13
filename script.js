@@ -1,26 +1,23 @@
 "use strict";
 const url = "//samdaw13.github.io/info.json";
-var earlyVictories = "earlyAxisVictories";
 var rowOne = document.getElementById('first-row');
 var rowTwo = document.getElementById('second-row');
 var rowThree = document.getElementById('third-row');
 var rowFour = document.getElementById('fourth-row');
-var site1 = 0;
 function getJSON(url) {
     return fetch(url)
         .then(function (response) {
-            return response.json();
-        })
+        return response.json();
+    })
         .catch(function (error) {
-            console.log(error);
-        });
+        console.log(error);
+    });
 }
 
 function getPeople(url) {
     getJSON(url).then(function (data) {
         console.log(data);
         var dictators = data.people;
-
         var firstRow = document.getElementById('row-one');
         var secondRow = document.getElementById('row-two');
 
