@@ -3,6 +3,8 @@
         {
 
             "image": "images/adolf-hitler.jpg",
+            "imageSmall": "images/adolf-hitler-small.jpg",
+            "imageLarge": "images/adolf-hitler-large.jpg"
             "name": "Adolf Hitler",
             "nickname": "The Fuhrer",
             "birthdate": "April 20, 1889",
@@ -13,6 +15,8 @@
     },
         {
             "image": "images/benito-mussolini.jpg",
+            "imageSmall": "images/benito-mussolini-small.jpg",
+            "imageLarge": "images/benito-mussolini-large.jpg",
             "name": "Benito Mussolini",
             "nickname": "Il Duce",
             "birthdate": "July 29, 1883",
@@ -22,6 +26,8 @@
     },
         {
             "image": "images/hirohito.jpg",
+            "imageSmall": "images/hirohito-small.jpg",
+            "imageLarge": "images/hirohito-large.jpg",
             "name": "Michinomiya Hirohito",
             "nickname": "Emporer of Japan",
             "birthdate": "April 29, 1901",
@@ -31,6 +37,8 @@
     },
         {
             "image": "images/joseph-stalin.jpg",
+            "imageSmall": "images/joseph-stalin-small.jpg",
+            "imageLarge": "images/joseph-stalin-large.jpg",
             "name": "Joseph Stalin",
             "nickname": "Man of Steel",
             "birthdate": "December 18, 1878",
