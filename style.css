@@ -82,8 +82,3 @@ footer{
         font-size: 1.5em;
     }
 }
-@media screen and (min-width: 320px){
-    table img{
-        width: initial;
-    }
-}
