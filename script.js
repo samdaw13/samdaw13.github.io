@@ -31,20 +31,17 @@ function getPeople(url) {
             var source3 = document.createElement('source');
             var image = document.createElement('img');
             var anchor = document.createElement('a');
-            var anchor1 = document.createElement('a');
             var listItem = document.createElement('li');
 
             //set all the attributes
             anchor.setAttribute('href', '#');
-            anchor1.setAttribute('href', '#');
-            source1.setAttribute('srcset', person.imageSmall + ', 400w');
+            source1.setAttribute('srcset', person.imageSmall + ', 80w');
             source1.setAttribute('media', '(max-width: 400px)');
-            source2.setAttribute('srcset', person.image + ', 800w');
+            source2.setAttribute('srcset', person.image + ', 191w');
             source2.setAttribute('media', '(max-width: 800px)');
-            source3.setAttribute('srcset', person.imageLarge + ', 1600w');
+            source3.setAttribute('srcset', person.imageLarge + ', 220w');
             source3.setAttribute('media', '(max-width: 1600px)');
             image.setAttribute('src', person.image);
-            anchor1.innerHTML = person.name;
 
             //append the children
             picture.appendChild(source1);
@@ -52,9 +49,8 @@ function getPeople(url) {
             picture.appendChild(source3);
             picture.appendChild(image);
             anchor.appendChild(picture);
-            anchor.appendChild(rowOne);
-            listItem.appendChild(anchor1);
-            rowTwo.appendChild(listItem);
+            tableData.appendChild(anchor);
+            rowOne.appendChild(tableData);
 
             anchor.addEventListener('click', function (event) {
                 event.preventDefault();
@@ -75,13 +71,13 @@ function getPeople(url) {
         });
         dictators.forEach(function (person) {
             var tableData1 = document.createElement('td');
-            var anchor = document.createElement('a');
-            anchor.setAttribute('href', '#');
-            anchor.innerHTML = person.name;
-            tableData1.appendChild(anchor);
+            var anchor1 = document.createElement('a');
+            anchor1.setAttribute('href', '#');
+            anchor1.innerHTML = person.name;
+            tableData1.appendChild(anchor1);
 
-            secondRow.appendChild(tableData1);
-            anchor.addEventListener('click', function (event) {
+            rowTwo.appendChild(tableData1);
+            anchor1.addEventListener('click', function (event) {
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
 
