@@ -25,14 +25,40 @@ function getPeople(url) {
         var secondRow = document.getElementById('row-two');
 
         dictators.forEach(function (person) {
+
+            //create the elements for the images
             var tableData = document.createElement('td');
+            var picture = document.createElement('picture');
+            var source1 = document.createElement('source');
+            var source2 = document.createElement('source');
+            var source3 = document.createElement('source');
             var image = document.createElement('img');
             var anchor = document.createElement('a');
+            var anchor1 = document.createElement('a');
+            var listItem = document.createElement('li');
+
+            //set all the attributes
             anchor.setAttribute('href', '#');
+            anchor1.setAttribute('href', '#');
+            source1.setAttribute('srcset', person.imageSmall + ', 400w');
+            source1.setAttribute('media', '(max-width: 400px)');
+            source2.setAttribute('srcset', person.image + ', 800w');
+            source2.setAttribute('media', '(max-width: 800px)');
+            source3.setAttribute('srcset', person.imageLarge + ', 1600w');
+            source3.setAttribute('media', '(max-width: 1600px)');
             image.setAttribute('src', person.image);
-            anchor.appendChild(image);
-            tableData.appendChild(anchor);
-            firstRow.appendChild(tableData);
+            anchor1.innerHTML = person.name;
+
+            //append the children
+            picture.appendChild(source1);
+            picture.appendChild(source2);
+            picture.appendChild(source3);
+            picture.appendChild(image);
+            anchor.appendChild(picture);
+            anchor.appendChild(rowOne);
+            listItem.appendChild(anchor1);
+            rowTwo.appendChild(listItem);
+
             anchor.addEventListener('click', function (event) {
                 event.preventDefault();
                 document.getElementById('information').style.display = 'block';
