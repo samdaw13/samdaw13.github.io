@@ -89,21 +89,7 @@ function getEarlyVictories(url) {
            tableRowOne.appendChild(anchor);
            rowOne.appendChild(tableRowOne);
            anchor.addEventListener('click', function (event) {
-
-               event.preventDefault();
-               document.getElementById('information').style.display = 'block';
-               document.getElementById('operation-name').innerHTML = earlyBattles[i].operationName;
-               document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
-
-               document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
-
-               document.getElementById('date-began').innerHTML = earlyBattles[i].dateBegan
-
-               document.getElementById('date-ended').innerHTML = earlyBattles[i].dateEnded
-
-               document.getElementById('victor').innerHTML = earlyBattles[i].victor;
-
-               document.getElementById('battle-description').innerHTML = earlyBattles[i].description;
+               addBattles(earlyBattles[i]);
            });
 
        }
@@ -117,21 +103,7 @@ function getEarlyVictories(url) {
             tableRowThree.appendChild(anchor1);
             rowThree.appendChild(tableRowThree);
             anchor1.addEventListener('click', function (event) {
-
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = earlyBattles[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
-
-                document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
-
-                document.getElementById('date-began').innerHTML = earlyBattles[i].dateBegan
-
-                document.getElementById('date-ended').innerHTML = earlyBattles[i].dateEnded
-
-                document.getElementById('victor').innerHTML = earlyBattles[i].victor;
-
-                document.getElementById('battle-description').innerHTML = earlyBattles[i].description;
+                addBattles(earlyBattles[i]);
             });
 
         }
@@ -147,21 +119,7 @@ function getEarlyVictories(url) {
             rowTwo.appendChild(tableData5);
 
             anchor1.addEventListener('click', function (event) {
-
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = earlyBattles[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
-
-                document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
-
-                document.getElementById('date-began').innerHTML = earlyBattles[i].dateBegan
-
-                document.getElementById('date-ended').innerHTML = earlyBattles[i].dateEnded
-
-                document.getElementById('victor').innerHTML = earlyBattles[i].victor;
-
-                document.getElementById('battle-description').innerHTML = earlyBattles[i].description;
+                addBattles(earlyBattles[i]);
             });
 
         }
@@ -177,21 +135,7 @@ function getEarlyVictories(url) {
             rowFour.appendChild(tableData3);
 
             anchor1.addEventListener('click', function (event) {
-
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = earlyBattles[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = earlyBattles[i].casualtiesAxis;
-
-                document.getElementById('allied-casualties').innerHTML = earlyBattles[i].casualtiesAllied
-
-                document.getElementById('date-began').innerHTML = earlyBattles[i].dateBegan
-
-                document.getElementById('date-ended').innerHTML = earlyBattles[i].dateEnded
-
-                document.getElementById('victor').innerHTML = earlyBattles[i].victor;
-
-                document.getElementById('battle-description').innerHTML = earlyBattles[i].description;
+                addBattles(earlyBattles[i]);
             });
 
         }
@@ -217,23 +161,7 @@ function turnOfTheTide(url){
             tableRowFive.appendChild(anchor);
             rowFive.appendChild(tableRowFive);
             anchor.addEventListener('click', function (event) {
-
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = turnOfTheTideBattles[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
-
-                document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
-
-                document.getElementById('date-began').innerHTML = turnOfTheTideBattles[i].dateBegan
-
-                document.getElementById('date-ended').innerHTML = turnOfTheTideBattles[i].dateEnded
-
-                document.getElementById('victor').innerHTML = turnOfTheTideBattles[i].victor;
-
-
-
-                document.getElementById('battle-description').innerHTML = turnOfTheTideBattles[i].description;
+                addBattles(turnOfTheTideBattles[i]);
             });
 
         }
@@ -247,23 +175,7 @@ function turnOfTheTide(url){
             tableRowSeven.appendChild(anchor3);
             rowSeven.appendChild(tableRowSeven);
             anchor3.addEventListener('click', function (event) {
-
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = turnOfTheTideBattles[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
-
-                document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
-
-                document.getElementById('date-began').innerHTML = turnOfTheTideBattles[i].dateBegan
-
-                document.getElementById('date-ended').innerHTML = turnOfTheTideBattles[i].dateEnded
-
-                document.getElementById('victor').innerHTML = turnOfTheTideBattles[i].victor;
-
-
-
-                document.getElementById('battle-description').innerHTML = turnOfTheTideBattles[i].description;
+                addBattles(turnOfTheTideBattles[i]);
             });
         }
         for(let i = 0; i < 4; i++){
@@ -279,23 +191,7 @@ function turnOfTheTide(url){
            rowSix.appendChild(tableData4);
 
             anchor2.addEventListener('click', function (event) {
-
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = turnOfTheTideBattles[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
-
-                document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
-
-                document.getElementById('date-began').innerHTML = turnOfTheTideBattles[i].dateBegan
-
-                document.getElementById('date-ended').innerHTML = turnOfTheTideBattles[i].dateEnded
-
-                document.getElementById('victor').innerHTML = turnOfTheTideBattles[i].victor;
-
-
-
-                document.getElementById('battle-description').innerHTML = turnOfTheTideBattles[i].description;
+                addBattles(turnOfTheTideBattles[i]);
             });
 
         }
@@ -311,23 +207,7 @@ function turnOfTheTide(url){
             rowEight.appendChild(tableData5);
 
             anchor1.addEventListener('click', function (event) {
-
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = turnOfTheTideBattles[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAxis;
-
-                document.getElementById('allied-casualties').innerHTML = turnOfTheTideBattles[i].casualtiesAllied
-
-                document.getElementById('date-began').innerHTML = turnOfTheTideBattles[i].dateBegan
-
-                document.getElementById('date-ended').innerHTML = turnOfTheTideBattles[i].dateEnded
-
-                document.getElementById('victor').innerHTML = turnOfTheTideBattles[i].victor;
-
-
-
-                document.getElementById('battle-description').innerHTML = turnOfTheTideBattles[i].description;
+                addBattles(turnOfTheTideBattles[i]);
             });
 
         }
@@ -353,15 +233,7 @@ function alliedOffensive(url){
             tableRowNine.appendChild(anchor2);
             rowNine.appendChild(tableRowNine);
             anchor2.addEventListener('click', function(event){
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = alliesOffensive[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = alliesOffensive[i].casualtiesAxis;
-                document.getElementById('allied-casualties').innerHTML = alliesOffensive[i].casualtiesAllied;;
-                document.getElementById('date-began').innerHTML = alliesOffensive[i].dateBegan;
-                document.getElementById('date-ended').innerHTML = alliesOffensive[i].dateEnded;
-                document.getElementById('victor').innerHTML = alliesOffensive[i].victor;
-                document.getElementById('battle-description').innerHTML = alliesOffensive[i].description;
+                addBattles(alliesOffensive[i]);
             });
         }
         for(let i = 3; i < 6; i++){
@@ -374,15 +246,7 @@ function alliedOffensive(url){
             tableRowEleven.appendChild(anchor3);
             rowEleven.appendChild(tableRowEleven);
             anchor3.addEventListener('click', function(event){
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = alliesOffensive[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = alliesOffensive[i].casualtiesAxis;
-                document.getElementById('allied-casualties').innerHTML = alliesOffensive[i].casualtiesAllied;;
-                document.getElementById('date-began').innerHTML = alliesOffensive[i].dateBegan;
-                document.getElementById('date-ended').innerHTML = alliesOffensive[i].dateEnded;
-                document.getElementById('victor').innerHTML = alliesOffensive[i].victor;
-                document.getElementById('battle-description').innerHTML = alliesOffensive[i].description;
+                addBattles(alliesOffensive[i]);
             });
         }
         for(let i = 0; i < 3; i++){
@@ -393,15 +257,7 @@ function alliedOffensive(url){
             tableDataTen.appendChild(anchor);
             rowTen.appendChild(tableDataTen);
             anchor.addEventListener('click', function(event){
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = alliesOffensive[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = alliesOffensive[i].casualtiesAxis;
-                document.getElementById('allied-casualties').innerHTML = alliesOffensive[i].casualtiesAllied;;
-                document.getElementById('date-began').innerHTML = alliesOffensive[i].dateBegan;
-                document.getElementById('date-ended').innerHTML = alliesOffensive[i].dateEnded;
-                document.getElementById('victor').innerHTML = alliesOffensive[i].victor;
-                document.getElementById('battle-description').innerHTML = alliesOffensive[i].description;
+                addBattles(alliesOffensive[i]);
             });
         }
         for(let i = 3; i < 6; i++){
@@ -412,15 +268,7 @@ function alliedOffensive(url){
             tableDataTwelve.appendChild(anchor1);
             rowTwelve.appendChild(tableDataTwelve);
             anchor1.addEventListener('click', function(event){
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = alliesOffensive[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = alliesOffensive[i].casualtiesAxis;
-                document.getElementById('allied-casualties').innerHTML = alliesOffensive[i].casualtiesAllied;;
-                document.getElementById('date-began').innerHTML = alliesOffensive[i].dateBegan;
-                document.getElementById('date-ended').innerHTML = alliesOffensive[i].dateEnded;
-                document.getElementById('victor').innerHTML = alliesOffensive[i].victor;
-                document.getElementById('battle-description').innerHTML = alliesOffensive[i].description;
+                addBattles(alliesOffensive[i]);
             });
         }
     });
@@ -443,15 +291,7 @@ function defeatOfAxis(url){
             tableRowThirteen.appendChild(anchor2);
             rowThirteen.appendChild(tableRowThirteen);
             anchor2.addEventListener('click', function(event){
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = axisDefeat[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = axisDefeat[i].casualtiesAxis;
-                document.getElementById('allied-casualties').innerHTML = axisDefeat[i].casualtiesAllied;;
-                document.getElementById('date-began').innerHTML = axisDefeat[i].dateBegan;
-                document.getElementById('date-ended').innerHTML = axisDefeat[i].dateEnded;
-                document.getElementById('victor').innerHTML = axisDefeat[i].victor;
-                document.getElementById('battle-description').innerHTML = axisDefeat[i].description;
+                addBattles(axisDefeat[i]);
             });
         }
         for(let i = 4; i < 8; i++){
@@ -464,15 +304,7 @@ function defeatOfAxis(url){
             tableRowFifteen.appendChild(anchor3);
             rowFifteen.appendChild(tableRowFifteen);
             anchor3.addEventListener('click', function(event){
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = axisDefeat[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = axisDefeat[i].casualtiesAxis;
-                document.getElementById('allied-casualties').innerHTML = axisDefeat[i].casualtiesAllied;;
-                document.getElementById('date-began').innerHTML = axisDefeat[i].dateBegan;
-                document.getElementById('date-ended').innerHTML = axisDefeat[i].dateEnded;
-                document.getElementById('victor').innerHTML = axisDefeat[i].victor;
-                document.getElementById('battle-description').innerHTML = axisDefeat[i].description;
+                addBattles(axisDefeat[i]);
             });
         }
         for(let i = 0; i < 4; i++){
@@ -483,15 +315,7 @@ function defeatOfAxis(url){
             tableDataFourteen.appendChild(anchor);
             rowFourteen.appendChild(tableDataFourteen);
             anchor.addEventListener('click', function(event){
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = axisDefeat[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = axisDefeat[i].casualtiesAxis;
-                document.getElementById('allied-casualties').innerHTML = axisDefeat[i].casualtiesAllied;;
-                document.getElementById('date-began').innerHTML = axisDefeat[i].dateBegan;
-                document.getElementById('date-ended').innerHTML = axisDefeat[i].dateEnded;
-                document.getElementById('victor').innerHTML = axisDefeat[i].victor;
-                document.getElementById('battle-description').innerHTML = axisDefeat[i].description;
+                addBattles(axisDefeat[i]);
             });
         }
         for(let i = 4; i < 8; i++){
@@ -502,19 +326,49 @@ function defeatOfAxis(url){
             tableDataSixteen.appendChild(anchor1);
             rowSixteen.appendChild(tableDataSixteen);
             anchor1.addEventListener('click', function(event){
-                event.preventDefault();
-                document.getElementById('information').style.display = 'block';
-                document.getElementById('operation-name').innerHTML = axisDefeat[i].operationName;
-                document.getElementById('axis-casualties').innerHTML = axisDefeat[i].casualtiesAxis;
-                document.getElementById('allied-casualties').innerHTML = axisDefeat[i].casualtiesAllied;;
-                document.getElementById('date-began').innerHTML = axisDefeat[i].dateBegan;
-                document.getElementById('date-ended').innerHTML = axisDefeat[i].dateEnded;
-                document.getElementById('victor').innerHTML = axisDefeat[i].victor;
-                document.getElementById('battle-description').innerHTML = axisDefeat[i].description;
+                addBattles(axisDefeat[i]);
             });
         }
     });
 }
+function getBattles(url, battle){
+    getJSON(url).then(function (data){
+        console.log(data);
+        var earlyBattles = data.battle;
+        var rowOne = document.getElementById('first-row');
+        var rowTwo = document.getElementById('second-row');
+        var rowThree = document.getElementById('third-row');
+        var rowFour = document.getElementById('fourth-row');
+        for(var i = 0; i < 3; i++){
+            createElements(earlyBattles[i]);
+        }
+    });
+}
+function createElements(battle){
+    var image = document.createElement('img');
+    image.setAttribute('src', battle.image);
+    var tableRowOne = document.createElement('td');
+    var anchor = document.createElement('a');
+    anchor.setAttribute("href", "#");
+    anchor.appendChild(image);
+    tableRowOne.appendChild(anchor);
+    rowOne.appendChild(tableRowOne);
+    anchor.addEventListener('click', function (event) {
+        addBattles(battle);
+    });
+}
+function addBattles(page){
+    event.preventDefault();
+    document.getElementById('information').style.display = 'block';
+    document.getElementById('operation-name').innerHTML = page.operationName;
+    document.getElementById('axis-casualties').innerHTML = page.casualtiesAxis;
+    document.getElementById('allied-casualties').innerHTML = page.casualtiesAllied;;
+    document.getElementById('date-began').innerHTML = page.dateBegan;
+    document.getElementById('date-ended').innerHTML = page.dateEnded;
+    document.getElementById('victor').innerHTML = page.victor;
+    document.getElementById('battle-description').innerHTML = page.description;
+}
+
 
 
 
