@@ -40,6 +40,7 @@ function getPeople(url) {
 
             anchor.addEventListener('click', function (event) {
                 event.preventDefault();
+                window.scrollTo(0, 150);
                 document.getElementById('information').style.display = 'block';
 
                 document.getElementById('nickname').innerHTML = person.nickname;
@@ -65,6 +66,7 @@ function getPeople(url) {
             rowTwo.appendChild(tableData1);
             anchor1.addEventListener('click', function (event) {
                 event.preventDefault();
+                window.scrollTo(0, 150);
                 document.getElementById('information').style.display = 'block';
 
                 document.getElementById('nickname').innerHTML = person.nickname;
@@ -149,6 +151,7 @@ function createElements(battle, row1, row2) {
 
 function addBattles(page) {
     event.preventDefault();
+    window.scrollTo(0, 150);
     document.getElementById('information').style.display = 'block';
     document.getElementById('operation-name').innerHTML = page.operationName;
     document.getElementById('axis-casualties').innerHTML = page.casualtiesAxis;
